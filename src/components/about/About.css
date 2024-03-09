@@ -1,0 +1,24 @@
+.about-div{
+    width: 100%;
+    background-color: var(--black);
+    height: 100vh;
+    padding: 11rem 0 0 0;
+}
+
+.about-div h1{
+    text-align: center;
+    font-size: var(--heading);
+    color: var(--yellow);
+    font-weight: 500;
+}
+
+.about-div p{
+    text-align: center;
+}
+
+.textdiv{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 2rem;
+}

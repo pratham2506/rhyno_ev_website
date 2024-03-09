@@ -9,27 +9,28 @@ html{
   overflow-x: hidden;
 }
 
-.hori-bar{
-  width: 100%;
-  background-color: transparent;
-}
-
-.hori-bar img{
+.logo{
+  position: fixed;
+  top:20px; 
+  left:50px;
+  cursor: pointer;
+  z-index: 1010;
   width: 150px;
 }
 
 #nav-toggler{
   -webkit-appearance: none;
   position: fixed;
-  top:15px; 
-  right:30px;
+  top:20px; 
+  right:50px;
   cursor: pointer;
   z-index: 1010;
   font-size: 2rem;
+  transition: transform 0.2s ease;
 }
 
 #nav-toggler:checked{
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 }
 
 #nav-toggler:checked::before{
@@ -53,6 +54,7 @@ html{
   justify-content: center;
   flex-flow: column;
   padding:0 10%;
+  transition: left 0.3s ease;
 }
 
 .navbar a{

@@ -4,9 +4,10 @@ import Logo from '../../assets/Logo.png'
 
 const Navbar = () => {
   return (
-    <div className="hori-bar">
-      <img src={Logo} alt="" />
+    <div>
+      <img src={Logo} alt="" className="logo"/>
       <input type="checkbox" name="" id="nav-toggler" className="fas fa-bars" />
+      
 
       <nav className="navbar">
         <a href="#" data-text="home">
