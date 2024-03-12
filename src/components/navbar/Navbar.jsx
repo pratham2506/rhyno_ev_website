@@ -22,10 +22,22 @@ const Navbar = () => {
         <a href="#" data-text="blogs">
           blogs
         </a>
+        <a href="#" data-text="blogs">
+          blogs
+        </a>
+        <a href="#" data-text="blogs">
+          blogs
+        </a>
         <a href="#" data-text="contact">
           contact
         </a>
         <div className="background-image"></div>
+        <div className="social">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
       </nav>
     </div>
   );

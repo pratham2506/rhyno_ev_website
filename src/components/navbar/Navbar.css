@@ -1,6 +1,6 @@
 .logo{
   position: fixed;
-  top:20px; 
+  top:10px; 
   left:50px;
   cursor: pointer;
   z-index: 1010;
@@ -14,7 +14,8 @@
   right:50px;
   cursor: pointer;
   z-index: 1010;
-  font-size: 2rem;
+  font-size: 1.9rem;
+  color: var(--white);
   transition: transform 0.2s ease;
 }
 
@@ -24,7 +25,7 @@
 
 #nav-toggler:checked::before{
   content: '\f00d';
-  color:#fff;
+  color:var(--yellow);
   transition: .2s linear .2s;
 }
 
@@ -48,7 +49,7 @@
 }
 
 .navbar a{
-  font-size: 4em;
+  font-size: var(--heading);
   color:transparent;
   -webkit-text-stroke: .5px rgba(255,255,255,.5);
   font-weight: bolder;
@@ -60,7 +61,7 @@
   content: attr(data-text);
   position: absolute;
   top:0; left:0;
-  color:rgba(255,255,255,.9);
+  color:var(--yellow);
   transition: .3s linear;
   clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 }
@@ -104,15 +105,48 @@
   background-position: center;
 }
 
+.social{
+  width: 100px;
+  padding: 0rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  gap: 2rem;
+}
+
+.social a{
+  color: var(--white);
+  font-size: var(--para);
+}
+
+.social a:hover{
+  color: var(--yellow);
+  transition: all ease .3s;
+}
 
 @media (max-width:768px){
-  .navbar a{
-    font-size: 3em;
+  .social{
+    flex-direction: row;
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 0 4rem 0;
+  }
+  #nav-toggler{
+    right: 30px;
+  }
+  .logo{
+    left: 30px;
   }
 }
 
-@media (max-width:450px){
-  .navbar a{
-    font-size: 2em;
+@media (max-width:1000px) {
+  #nav-toggler{
+    right: 30px;
   }
 }
