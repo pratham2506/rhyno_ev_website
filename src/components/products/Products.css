@@ -1,0 +1,78 @@
+.pd-maindiv{
+    padding: 5rem 0;
+}
+
+.pd-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.pd-header h1{
+    font-size: var(--heading);
+    line-height: 1.2;
+}
+
+.pd-header small{
+    font-size: var(--small);
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.pd-aligntext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 4rem 0 0;
+}
+
+.pd-aligntext2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0 0 4rem;
+}
+
+.pd-textdiv{
+    width: 60%;
+}
+
+.pd-textdiv small{
+    font-size: var(--small);
+    color: var(--yellow);
+}
+
+.pd-textdiv h2{
+    font-size: var(--medium);
+}
+
+.pd-textdiv p{
+    font-size: var(--para);
+}
+
+.pd-textdiv button{
+    width: max-content;
+    background-color: grey;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+}
+
+.pd-imgdiv{
+    width: 50%;
+}
+
+.pd-imgdiv img{
+    width: 100%;
+}
