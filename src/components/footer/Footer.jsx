@@ -5,17 +5,18 @@ const Footer = () => {
   return (
     <div>
       <div className="ft-maindiv">
+        <div className="ft-paddiv">
         <h2>Let's connect and collaborate</h2>
         <div className="ft-links">
           <div className="ft-mails">
             <small>Skype Us</small>
-            <p>sales.techcompose</p>
+            <p><a href="">sales.techcompose</a></p>
 
             <small>Email</small>
-            <p>info@example.com</p>
+            <p><a href="">info@example.com</a></p>
 
             <small>Call on</small>
-            +91 00000000000
+            <p><a href="">+91 00000000000</a></p>
           </div>
           <div className="ft-add">
             <small>Visit us</small>
@@ -23,10 +24,11 @@ const Footer = () => {
           </div>
           <div className="ft-lets">
             <small>Lets connect</small>
-            <p>Drop a Message <i class="fas fa-chevron-right"></i></p>
+            <p><a href="">Drop a Message <i class="fas fa-chevron-right"></i></a></p>
           </div>
         </div>
 
+          <small>Quick Links</small>
         <div className="ft-quick">
             <li>Home</li>
             <li>Home</li>
@@ -34,7 +36,8 @@ const Footer = () => {
             <li>Home</li>
             <li>Home</li>
         </div>
-        <p>COpyright</p>
+        <p>Copyright &copy; 2024 Rhyno Wheels Private Limited. All Rights Reserved.</p>
+        </div>
       </div>
     </div>
   )

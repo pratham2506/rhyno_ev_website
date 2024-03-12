@@ -5,6 +5,7 @@
 :root{
   /* Colors */
   --dark-grey:#424242;
+  --light-grey:#bababa;
   --black:#252525;
   --white:#FFFFFF;
   --yellow:#F9ED32;
@@ -28,9 +29,7 @@
   outline: none; 
   border:none;
   text-decoration: none;
+  font-family: var(--poppins);
+  transition: all .2s linear;
+  overflow-x: hidden;
 }
-
-/* Tailwind css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
