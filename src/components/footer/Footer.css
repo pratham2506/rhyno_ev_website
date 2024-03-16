@@ -93,7 +93,7 @@ margin: 0 auto;
     text-align: left;
     margin-top: 0;
     margin-bottom: 3rem;
-    font-size: var(--medium);
+    font-size: var(--para);
     color: var(--white);
 }
 
@@ -123,5 +123,8 @@ margin: 0 auto;
     .ft-quick{
         flex-direction: column;
         gap: 1rem;
+    }
+    .ft-lets{
+        width: 100%;
     }
 }
