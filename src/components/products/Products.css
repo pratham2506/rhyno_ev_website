@@ -14,10 +14,12 @@
 .pd-header h1{
     font-size: var(--heading);
     line-height: 1.5;
+    /* text-transform: uppercase; */
 }
 
 .pd-header small{
     font-size: var(--small);
+    text-transform: uppercase;
 }
 
 .products{
@@ -54,10 +56,13 @@
 .pd-textdiv small{
     font-size: var(--small);
     color: var(--yellow);
+    text-transform: uppercase;
 }
 
 .pd-textdiv h2{
     font-size: var(--medium);
+    text-transform: capitalize;
+    /* text-align: justify; */
 }
 
 .pd-textdiv p{

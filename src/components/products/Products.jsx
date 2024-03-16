@@ -12,7 +12,7 @@ const Products = () => {
         <div className="pd-aligntext">
           <div className="pd-textdiv">
             <small>commercial</small>
-            <h2>BUSHWICK SELFIES PORK BELLY LYFT BROOKLYN MESSENG</h2>
+            <h2>Narwhal pop-up intelligentsia tbh pinterest, microdosing</h2>
             <p>
               Narwhal pop-up intelligentsia tbh pinterest, microdosing tilde
               cloud bread gochujang tattooed leggings cornhole 8-bit. Austin fam
@@ -37,7 +37,7 @@ const Products = () => {
         <div className="pd-aligntext2">
         <div className="pd-textdiv">
             <small>commercial</small>
-            <h2>BUSHWICK SELFIES PORK BELLY LYFT BROOKLYN MESSENG</h2>
+            <h2>Narwhal pop-up intelligentsia tbh pinterest, microdosing</h2>
             <p>
               Narwhal pop-up intelligentsia tbh pinterest, microdosing tilde
               cloud bread gochujang tattooed leggings cornhole 8-bit. Austin fam
