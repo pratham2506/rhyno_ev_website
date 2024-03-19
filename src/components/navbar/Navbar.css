@@ -10,7 +10,7 @@
 #nav-toggler{
   -webkit-appearance: none;
   position: fixed;
-  top:22px; 
+  top:18px; 
   right:50px;
   cursor: pointer;
   z-index: 1010;
