@@ -1,52 +1,62 @@
-import React from "react";
-import "./Products.css";
+import React, { useState, useRef } from 'react';
+import './Products.css'; // Import your CSS file
 
 const Products = () => {
-  return (
-    <div className="pd-maindiv">
-        <div className="pd-header">
-        <h1>Recent Works</h1>
-        <small>We offer digital solutions</small>
-        </div>
-      <div className="products">
-        <div className="pd-aligntext">
-          <div className="pd-textdiv">
-            <small>commercial</small>
-            <h2>Narwhal pop-up intelligentsia tbh pinterest, microdosing</h2>
-            <p>
-              Narwhal pop-up intelligentsia tbh pinterest, microdosing tilde
-              cloud bread gochujang tattooed leggings cornhole 8-bit. Austin fam
-              chia cold-pressed raw denim. Glossier drinking vinegar portland
-              lo-fi, polaroid bespoke lomo. Banjo art party XOXO, fashion axe
-              sustainable retro ethical gentrify.
-            </p>
-            <button>Read more</button>
-          </div></div>
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const carouselRef = useRef(null);
 
-          <div className="pd-imgdiv">
-            <img src="http://www.nurseitmukaytegin.com/envato-templates/xen/assets/images/projects/pexels-photo-1619654.jpeg" alt="" />
-        </div>
+  const slideCount = 6; // Number of slides
+
+  const handleNextSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide + 1) % slideCount);
+    carouselRef.current.appendChild(carouselRef.current.children[0]);
+  };
+
+  const handlePrevSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide - 1 + slideCount) % slideCount);
+    carouselRef.current.prepend(carouselRef.current.children[slideCount - 1]);
+  };
+
+  const images = [
+    'https://i.ibb.co/qCkd9jS/img1.jpg',
+    'https://i.ibb.co/jrRb11q/img2.jpg',
+    'https://i.ibb.co/NSwVv8D/img3.jpg',
+    'https://i.ibb.co/Bq4Q0M8/img4.jpg',
+    'https://i.ibb.co/jTQfmTq/img5.jpg',
+    'https://i.ibb.co/RNkk6L0/img6.jpg',
+  ];
+
+  return (
+    <div className="container">
+      <div className="slide" ref={carouselRef}>
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className={`item ${
+              index === currentSlide || index === (currentSlide + 1) % slideCount
+                ? 'active'
+                : ''
+            }`}
+            style={{ backgroundImage: `url(${image})` }}
+          >
+            <div className="content">
+              <div className="name">Switzerland</div> {/* Replace with actual country names */}
+              <div className="des">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!
+              </div>
+              <button>See More</button>
+            </div>
+          </div>
+        ))}
       </div>
 
-      <div className="products">
-          
-
-          <div className="pd-imgdiv">
-            <img src="http://www.nurseitmukaytegin.com/envato-templates/xen/assets/images/projects/pexels-photo-1619654.jpeg" alt="" />
-        </div>
-        <div className="pd-aligntext2">
-        <div className="pd-textdiv">
-            <small>commercial</small>
-            <h2>Narwhal pop-up intelligentsia tbh pinterest, microdosing</h2>
-            <p>
-              Narwhal pop-up intelligentsia tbh pinterest, microdosing tilde
-              cloud bread gochujang tattooed leggings cornhole 8-bit. Austin fam
-              chia cold-pressed raw denim. Glossier drinking vinegar portland
-              lo-fi, polaroid bespoke lomo. Banjo art party XOXO, fashion axe
-              sustainable retro ethical gentrify.
-            </p>
-            <button>Read more</button>
-          </div></div>
+      <div className="button">
+        <button className="prev" onClick={handlePrevSlide}>
+          <i className="fa-solid fa-arrow-left"></i>
+        </button>
+        <button className="next" onClick={handleNextSlide}>
+          <i className="fa-solid fa-arrow-right"></i>
+        </button>
       </div>
     </div>
   );

@@ -13,10 +13,10 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Contact/>
       <Home/>
       <About/>
-      {/* <Products/> */}
+      <Products/>
+      <Contact/>
       {/* <Testimonials/> */}
       <Footer/>
       {/* <Cursor/> */}

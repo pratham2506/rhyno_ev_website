@@ -34,4 +34,5 @@
   font-family: var(--poppins);
   transition: all .2s linear;
   overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
