@@ -115,4 +115,9 @@
     .ct-linksdiv{
         flex-direction: column;
     }
+
+    .c-maindiv{
+        height: 100%;
+        padding: 5rem 0;
+    }
 }
