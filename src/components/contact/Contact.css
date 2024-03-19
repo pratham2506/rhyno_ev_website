@@ -21,3 +21,98 @@
     text-align: justify;
     line-height: 2;
 }
+
+.ct-boxy{
+    display: flex;
+    width: 70%;
+    margin: 0 auto 15rem;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.ct-insidediv{
+    width: 70%;
+}
+
+.ct-boxy h2{
+    font-size: var(--medium);
+}
+
+.ct-insidediv2{
+    width: 30%;
+}
+
+.ct-linksdiv{
+    display: flex;
+    gap: 30%;
+}
+
+.ct-linksdiv p{
+    font-size: var(--para);
+    margin-top: 3rem;
+    font-weight: 600;
+}
+
+.ct-linksdiv small{
+    font-size: var(--para);
+    color: var(--dark-grey);
+}
+
+.ct-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ct-social a{
+    text-decoration: none;
+    color: var(--dark-grey);
+    font-size: var(--para);
+    margin-top: 3rem;
+}
+
+.ct-social a:hover{
+    color: var(--yellow);
+    transition: ease all .5s;
+}
+
+@media (max-width:1200px){
+    .ct-boxy{
+        width: 100%;
+        margin: 0 0 15rem;
+        padding: 0 2rem;
+    }
+
+    .c-textdiv{
+        width: 100%;
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width:980px){
+    .ct-linksdiv{
+        gap: 15% ;
+    }
+}
+
+@media (max-width:840px) {
+    .ct-boxy{
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .ct-insidediv, .ct-insidediv2{
+        width: 100%;
+    }
+
+    .ct-social{
+        justify-content: flex-start;
+        gap: 2.5rem;
+    }
+}
+
+@media (max-width:510px) {
+    .ct-linksdiv{
+        flex-direction: column;
+    }
+}
