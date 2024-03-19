@@ -44,7 +44,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-flow: column;
-  padding:0 10%;
+  padding:5rem 10%;
   transition: left 0.3s ease;
 }
 
