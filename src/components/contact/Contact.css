@@ -69,6 +69,7 @@
     color: var(--dark-grey);
     font-size: var(--para);
     margin-top: 3rem;
+    margin-bottom: 5px;
 }
 
 .ct-social a:hover{
