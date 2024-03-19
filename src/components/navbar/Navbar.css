@@ -10,11 +10,11 @@
 #nav-toggler{
   -webkit-appearance: none;
   position: fixed;
-  top:20px; 
+  top:22px; 
   right:50px;
   cursor: pointer;
   z-index: 1010;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   color: var(--white);
   transition: transform 0.2s ease;
 }
