@@ -3,11 +3,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%);
-    width: 1000px;
-    height: 600px;
-    margin: 5rem 0;
-    background: #f5f5f5;
-    box-shadow: 0 30px 50px #dbdbdb;
+    width: 100%;
+    height: 100vh;
+    /* margin: 5rem 0; */
+    background: var(--white);
+    box-shadow: 0 30px 50px var(--white);
 }
 
 .container .slide .item{
@@ -17,7 +17,7 @@
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 20px;
-    box-shadow: 0 30px 50px #505050;
+    box-shadow: 0 30px 50px var(--light-grey);
     background-position: 50% 50%;
     background-size: cover;
     display: inline-block;
@@ -56,12 +56,11 @@
 .item .content{
     position: absolute;
     top: 50%;
-    left: 100px;
+    left: 200px;
     width: 300px;
     text-align: left;
-    color: #eee;
+    color: var(--white);
     transform: translate(0, -50%);
-    font-family: system-ui;
     display: none;
     overflow-y: hidden;
 
@@ -134,4 +133,28 @@
 .button button:hover{
     background: #ababab;
     color: #fff;
+}
+
+@media (max-width:1040px){
+    .item .content{
+        left: 100px;
+    }
+}
+
+@media (max-width:880px){
+    .item .content{
+        left: 50px;
+    }
+}
+
+@media (max-width:750px){
+    .container{
+        height: 120vh;
+    }
+    .item .content{
+        top: 20%;
+    }
+    .container .slide .item{
+        /* top: 70%; */
+    }
 }
