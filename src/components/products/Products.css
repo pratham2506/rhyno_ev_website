@@ -149,12 +149,13 @@
 
 @media (max-width:750px){
     .container{
-        height: 120vh;
+        height: 100vh;
     }
     .item .content{
         top: 20%;
     }
     .container .slide .item{
-        /* top: 70%; */
+        top: 70%;
+        transform: translate(0, -70%);
     }
 }
