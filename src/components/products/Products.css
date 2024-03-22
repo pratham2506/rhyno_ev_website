@@ -15,9 +15,9 @@
     height: 300px;
     position: absolute;
     top: 50%;
-    transform: translate(0, -50%);
+    transform: translate(90%, -10%);
     border-radius: 20px;
-    box-shadow: 0 30px 50px var(--light-grey);
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 3px 3px 0px;
     background-position: 50% 50%;
     background-size: cover;
     display: inline-block;
@@ -39,10 +39,10 @@
     left: 50%;
 }
 .slide .item:nth-child(4){
-    left: calc(50% + 220px);
+    left: calc(50% + 120px);
 }
 .slide .item:nth-child(5){
-    left: calc(50% + 440px);
+    left: calc(50% + 250px);
 }
 
 /* here n = 0, 1, 2, 3,... */
