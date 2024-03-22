@@ -33,6 +33,10 @@
     color: var(--white);
 }
 
+.para-para{
+    text-transform: uppercase;
+}
+
 @media (max-width:1070px){
     .textdiv{
         width: 100%;

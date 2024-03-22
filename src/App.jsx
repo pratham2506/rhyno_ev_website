@@ -6,6 +6,9 @@ import Footer from './components/footer/Footer'
 import Testimonials from './components/testimonials/Testimonial'
 import Products from './components/products/Products'
 import Contact from './components/contact/Contact'
+import SnapScroll1 from './components/snap_scroll1/SnapScroll1'
+import AboutPage from './components/about-page/AboutPage'
+import Privacy from './components/privacy_policy/Privacy'
 
 function App() {
   
@@ -14,9 +17,12 @@ function App() {
     <>
       <Navbar/>
       <Home/>
-      <About/>
+      {/* <AboutPage/> */}
+      {/* <About/> */}
+      {/* <Privacy/> */}
+      {/* <SnapScroll1/> */}
       <Products/>
-      <Contact/>
+      {/* <Contact/> */}
       {/* <Testimonials/> */}
       <Footer/>
       {/* <Cursor/> */}

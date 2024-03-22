@@ -7,7 +7,7 @@
     height: 100vh;
     /* margin: 5rem 0; */
     background: var(--white);
-    box-shadow: 0 30px 50px var(--white);
+    /* box-shadow: 0 30px 50px var(--white); */
 }
 
 .container .slide .item{

@@ -1,5 +1,11 @@
 import React, { useState, useRef } from 'react';
 import './Products.css'; // Import your CSS file
+import IMG1 from '../../assets/1.png'
+import IMG2 from '../../assets/2.png'
+import IMG3 from '../../assets/3.png'
+import IMG4 from '../../assets/4.png'
+import IMG5 from '../../assets/5.png'
+import IMG6 from '../../assets/6.png'
 
 const Products = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -18,12 +24,12 @@ const Products = () => {
   };
 
   const images = [
-    'https://i.ibb.co/qCkd9jS/img1.jpg',
-    'https://i.ibb.co/jrRb11q/img2.jpg',
-    'https://i.ibb.co/NSwVv8D/img3.jpg',
-    'https://i.ibb.co/Bq4Q0M8/img4.jpg',
-    'https://i.ibb.co/jTQfmTq/img5.jpg',
-    'https://i.ibb.co/RNkk6L0/img6.jpg',
+    IMG1,
+    IMG2,
+    IMG3,
+    IMG4,
+    IMG5,
+    IMG6,
   ];
 
   return (
