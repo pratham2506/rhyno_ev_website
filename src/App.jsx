@@ -10,6 +10,8 @@ import SnapScroll1 from './components/snap_scroll1/SnapScroll1'
 import AboutPage from './components/about-page/AboutPage'
 import Privacy from './components/privacy_policy/Privacy'
 import Vehicle_Img from './components/vehicle_img/Vehicle_Img'
+import Spec from './components/vechicle_spec/Spec'
+import ColorChange from './components/colorchange/ColorChange'
 
 function App() {
   
@@ -21,6 +23,8 @@ function App() {
       {/* <AboutPage/> */}
       {/* <About/> */}
       <Vehicle_Img/>
+      <Spec/>
+      <ColorChange/>
       {/* <Privacy/> */}
       {/* <SnapScroll1/> */}
       {/* <Products/> */}
