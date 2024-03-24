@@ -9,6 +9,7 @@ import Contact from './components/contact/Contact'
 import SnapScroll1 from './components/snap_scroll1/SnapScroll1'
 import AboutPage from './components/about-page/AboutPage'
 import Privacy from './components/privacy_policy/Privacy'
+import Vehicle_Img from './components/vehicle_img/Vehicle_Img'
 
 function App() {
   
@@ -16,12 +17,13 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Home/>
+      {/* <Home/> */}
       {/* <AboutPage/> */}
       {/* <About/> */}
+      <Vehicle_Img/>
       {/* <Privacy/> */}
       {/* <SnapScroll1/> */}
-      <Products/>
+      {/* <Products/> */}
       {/* <Contact/> */}
       {/* <Testimonials/> */}
       <Footer/>
