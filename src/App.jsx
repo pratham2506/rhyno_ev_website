@@ -19,16 +19,16 @@ function App() {
   return (
     <>
       <Navbar/>
-      {/* <Home/> */}
-      {/* <AboutPage/> */}
-      {/* <About/> */}
+      <Home/>
+      <AboutPage/>
+      <About/>
       <Vehicle_Img/>
       <Spec/>
       <ColorChange/>
-      {/* <Privacy/> */}
+      <Privacy/>
       {/* <SnapScroll1/> */}
-      {/* <Products/> */}
-      {/* <Contact/> */}
+      <Products/>
+      <Contact/>
       {/* <Testimonials/> */}
       <Footer/>
       {/* <Cursor/> */}

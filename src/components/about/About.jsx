@@ -4,21 +4,18 @@ import './About.css'
 const About = () => {
   return (
     <div>
-      <div className="about-div">
-        <h1>We are creative</h1>
-        <h1>we are zen</h1>
-        <div className="textdiv">
-          <div className="div1">
-            <p>Established in 2019 by an automotive engineer with a vision for sustainable and robust mobility solutions, Rhyno EV is not just a company; it's a collective effort of a dynamic team of young individuals passionately driving innovation in the electric vehicle industry. We believe in engineering solutions that solve problems.
-</p>
-          </div>
-
-          <div className="div2">
-            <p>With our first product, we've taken a bold step to create something more than just a vehicle; it's a unique experience of elegance, comfort, and style, addressing the pitfalls of conventional electric scooters. Our design prioritizes safety, eliminating concerns of fires and ensuring a longer battery lifespan with our battery technology. Perfectly suited for fleet operators, especially in tourist-centric locations like Goa, our rugged yet aesthetically appealing scooters are engineered for longevity and reliability. 
-</p>
-          </div>
+      <div className="ap-maindiv">
+        <div className="ap-textdiv">
+          <h1>Solution Designing and Development</h1>
+          <p>
+            Hi! You have reached to the right page. You may be looking for a
+            team to work with or just visiting us yet please drop us a message
+            and let's start a conversation. I bet it will be a step
+            forward/closer for both of us. If nothing comes up to drop a
+            message, at-least share your feedback on our efforts to convey who
+            we are OR follow us/thumbs-up on any of our social media platforms.
+          </p>
         </div>
-        <p className='para-para'>Join us as we pioneer a new era in sustainable and dependable electric transportation.</p>
       </div>
     </div>
   )

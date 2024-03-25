@@ -30,6 +30,9 @@ const AboutPage = () => {
 
             <h2>Our Vision</h2>
             <p>Our varied work area comprises of developing and delivering best quality IT solutions in an industry in varied areas, which comprised of designing, web development, web application, software development, mobile app development, and e-Commerce solutions.</p>
+
+            <h2>Our Vision</h2>
+            <p>Our varied work area comprises of developing and delivering best quality IT solutions in an industry in varied areas, which comprised of designing, web development, web application, software development, mobile app development, and e-Commerce solutions.</p>
         </div>
       </div>
 
