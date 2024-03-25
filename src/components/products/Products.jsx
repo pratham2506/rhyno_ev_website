@@ -11,7 +11,7 @@ const Products = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const carouselRef = useRef(null);
 
-  const slideCount = 6; // Number of slides
+  const slideCount = 3; // Number of slides
 
   const handleNextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide + 1) % slideCount);

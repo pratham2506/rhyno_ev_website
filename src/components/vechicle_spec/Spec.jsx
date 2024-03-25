@@ -22,20 +22,20 @@ const Spec = () => {
         <div className="spec-info1">
             <div className="spec-inside">
             <img src={bolt} alt="" className='spec-icon'/>
-        <p>True Power</p>
-        <p className='spec-grey'>Experience Acceleration like no Other 00</p>
+        <p>Power</p>
+        <p className='spec-grey'>Elevate your journey with the dynamic 1500W motor power!</p>
             </div>
 
             <div className="spec-inside">
             <img src={battery} alt="" className='spec-icon'/>
-        <p>True Power</p>
-        <p className='spec-grey'>Experience Acceleration like no Other 00</p>
+        <p>Battery </p>
+        <p className='spec-grey'>2.7 kWh illuminates sustainability in small packages!</p>
             </div>
 
             <div className="spec-inside">
             <img src={scooter} alt="" className='spec-icon'/>
-        <p>True Power</p>
-        <p className='spec-grey'>Experience Acceleration like no Other 00</p>
+        <p>Range</p>
+        <p className='spec-grey'>Unleash freedom with ranges stretching to an electrifying 150km!</p>
             </div>
         </div>
 
@@ -46,20 +46,20 @@ const Spec = () => {
         <div className="spec-info2">
             <div className="spec-inside">
             <img src={scooter1} alt="" className='spec-icon'/>
-        <p>True Power</p>
-        <p className='spec-grey'>Experience Acceleration like no Other 00</p>
+        <p>Comfort</p>
+        <p className='spec-grey'>Indulge in comfort, revel in stability, and embrace safety.</p>
             </div>
 
             <div className="spec-inside">
             <img src={wheel} alt="" className='spec-icon'/>
-        <p>True Power</p>
-        <p className='spec-grey'>Experience Acceleration like no Other 00</p>
+        <p>Speed</p>
+        <p className='spec-grey'>Experience the thrill with Max speed soaring at 55 kmph!</p>
             </div>
 
             <div className="spec-inside">
             <img src={charger} alt="" className='spec-icon'/>
-        <p>True Power</p>
-        <p className='spec-grey'>Experience Acceleration like no Other 00</p>
+        <p>Charge</p>
+        <p className='spec-grey'>Revitalize your ride with a swift 4-hour (12A) charge!</p>
             </div>
         </div>
       </div>

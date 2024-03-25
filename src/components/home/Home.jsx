@@ -3,52 +3,57 @@ import './Home.css'
 
 const Home = () => {
   const [loopNum, setLoopNum] = useState(0);
-    const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Soar Above Ordinary", "From Fields to Skies", "Drones on Demand"];
-    const [text, setText] = useState('');
-    const [delta, setDelta] = useState(100 - Math.random() * 50);
-    const period = 2000;
+  const [isDeleting, setIsDeleting] = useState(false);
+  const toRotate = ["Style", "Elegance", "Minimalism","Comfort"];
+  const [text, setText] = useState('');
+  const [delta, setDelta] = useState(50); // Faster initial typing speed
+  const period = 800;
 
-    useEffect(() => {
-        let ticker = setInterval(() => {
-            tick();
-        },delta)
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta);
 
-        return () => {clearInterval(ticker)};
-    },[text])
+    return () => { clearInterval(ticker) };
+  }, [text]);
 
-    const tick = () => {
-        let i = loopNum % toRotate.length;
-        let fullText = toRotate[i];
-        let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0 ,text.length + 1);
+  const tick = () => {
+    let i = loopNum % toRotate.length;
+    let fullText = toRotate[i];
+    let updatedText;
 
-
-        setText(updatedText);
-
-        if(isDeleting){
-            setDelta(prevDelta => prevDelta/2)
-        }
-        if(!isDeleting && updatedText ===  fullText){
-            setIsDeleting(true);
-            setDelta(period);
-        }else if(isDeleting && updatedText === ''){
-            setIsDeleting(false);
-            setLoopNum(loopNum + 1);
-            setDelta(500);
-        }
-
-
+    if (!isDeleting) {
+      updatedText = fullText.substring(0, text.length + 1); // Write the entire line at once
+    } else {
+      updatedText = fullText.substring(0, text.length - 1);
     }
+
+    setText(updatedText);
+
+    if (isDeleting) {
+      setDelta(prevDelta => prevDelta / 2);
+    }
+
+    if (!isDeleting && updatedText === fullText) {
+      setIsDeleting(true);
+      setDelta(period);
+    } else if (isDeleting && updatedText === '') {
+      setIsDeleting(false);
+      setLoopNum(loopNum + 1);
+      setDelta(50); // Reset typing speed for the next line
+    }
+  }
+
   return (
     <div>
       <div className="Drone_head">
-            <div className="content">
-            <h1>Transforming the Way <br /> You See the World</h1>
-            <h1 className='animaton'>{text}<span>|</span></h1>
-            </div>
+        <div className="content">
+          <h1>Let's Elevate Your Ride Experience <br /> With Rhyno</h1>
+          <h1 className='animation'>Where Superiority Meets {text}<span>|</span></h1>
         </div>
+      </div>
     </div>
   )
 }
 
-export default Home
+export default Home;

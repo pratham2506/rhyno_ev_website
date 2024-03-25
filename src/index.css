@@ -16,10 +16,10 @@
   --calibri:"Calibri", sans-serif;
 
   /* Font Sizes */
-  --heading: 3.2rem;
-  --medium:2.2rem;
-  --para:1.25rem;
-  --small:1rem;
+  --heading: clamp(1.5rem,3.5vw,3.2rem);
+  --medium:clamp(1.5rem,1.8vw,2.2rem);
+  --para:clamp(1rem,1.2vw,1.25rem);
+  --small:clamp(0.8rem,0.9vw,1.15rem);
 }
 
 
@@ -33,6 +33,6 @@
   text-decoration: none;
   font-family: var(--poppins);
   transition: all .2s linear;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* overflow-y: hidden; */
 }

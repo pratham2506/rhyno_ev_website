@@ -1,5 +1,18 @@
+.main-navdiv{
+  height: 80px;
+  width: 100%;
+  z-index: 1010;
+  /* background-color: var(--light-grey); */
+  /* backdrop-filter: blur(10px); */
+}
+
+.sticky{
+  position: absolute;
+  top: 0;
+}
+
 .logo{
-  position: fixed;
+  position: relative;
   top:10px; 
   left:50px;
   cursor: pointer;
@@ -9,9 +22,9 @@
 
 #nav-toggler{
   -webkit-appearance: none;
-  position: fixed;
-  top:18px; 
-  right:50px;
+  position: relative;
+  top:-10px; 
+  left:1350px;
   cursor: pointer;
   z-index: 1010;
   font-size: 1.8rem;
@@ -36,7 +49,8 @@
 .navbar{
   text-transform: uppercase;
   position: fixed;
-  top:0; left:-110%;
+  top:0; 
+  left:-110%;
   height: 100%;
   width: 100%;
   z-index: 1000;

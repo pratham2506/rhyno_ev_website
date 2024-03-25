@@ -8,12 +8,7 @@ const Contact = () => {
         <div className="c-textdiv">
           <h1>Contact US</h1>
           <p>
-            Hi! You have reached to the right page. You may be looking for a
-            team to work with or just visiting us yet please drop us a message
-            and let's start a conversation. I bet it will be a step
-            forward/closer for both of us. If nothing comes up to drop a
-            message, at-least share your feedback on our efforts to convey who
-            we are OR follow us/thumbs-up on any of our social media platforms.
+          Established in 2019 by an automotive engineer with a vision for sustainable and robust mobility solutions, Rhyno EV is not just a company; it's a collective effort of a dynamic team of young individuals passionately driving innovation in the electric vehicle industry. We believe in engineering solutions that solve problems.
           </p>
         </div>
       </div>
@@ -24,18 +19,18 @@ const Contact = () => {
           <div className="ct-linksdiv">
             <div className="ct-links1">
               <p>Phone :</p>
-              <small>+91 000000000</small><br />
-              <small>+91 000000000</small>
+              <small>+91 9023987528</small><br />
+              {/* <small>+91 000000000</small> */}
 
               <p>Mobile :</p>
-              <small>+91 000000000</small>
+              <small>+91 9023987528</small>
             </div>
             <div className="ct-links2">
               <p>E-Mail :</p>
-              <small>exampple@gmail.com</small>
+              <small> info@rhyno.in</small>
 
-              <p>Skype :</p>
-              <small>abc@gmail.com</small>
+              <p>Address :</p>
+              <small>Rhyno Wheels Private limited, Near UG hostel gate #2, Behind PDEU, Raisan, Gandhinagar, Gujarat, India.</small>
             </div>
           </div>
         </div>

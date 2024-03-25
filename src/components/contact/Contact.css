@@ -44,7 +44,11 @@
 
 .ct-linksdiv{
     display: flex;
-    gap: 30%;
+    gap: 20%;
+}
+
+.ct-links1{
+    width: 350px;
 }
 
 .ct-linksdiv p{

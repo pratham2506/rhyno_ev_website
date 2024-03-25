@@ -5,21 +5,21 @@ const Vehicle_Img = () => {
   return (
     <div className='vi-bgimg'>
       <div className="vi-maindiv">
-        <h1>Jeet X</h1>
+        <h1>SE 03</h1>
         <div className="vi-info">
             <div className="vi-one">
             <small>Certified Range</small>
-            <p>100 KMS</p>
+            <p>150 KMS</p>
             </div>
 
             <div className="vi-one">
             <small>Top Speed</small>
-            <p>65 kmph</p>
+            <p>55 kmph</p>
             </div>
 
             <div className="vi-one">
-            <small>0 - 50% Charge</small>
-            <p>2 HRS</p>
+            <small>0 - 100% Charge</small>
+            <p>4 HRS</p>
             </div>
         </div>
       </div>
