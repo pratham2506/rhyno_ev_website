@@ -22,9 +22,9 @@
 
 #nav-toggler{
   -webkit-appearance: none;
-  position: relative;
-  top:-10px; 
-  left:1350px;
+  position: absolute;
+  top:30px; 
+  right: 70px;
   cursor: pointer;
   z-index: 1010;
   font-size: 1.8rem;
@@ -151,20 +151,8 @@
     align-items: flex-end;
     padding: 0 0 4rem 0;
   }
-  #nav-toggler{
-    right: 30px;
-  }
   .logo{
     left: 30px;
-  }
-  .background-image{
-    background-size: contain;
-  }
-}
-
-@media (max-width:1000px) {
-  #nav-toggler{
-    right: 30px;
   }
 }
 
@@ -175,5 +163,11 @@
 
   .navbar{
     height: max-content;
+  }
+}
+
+@media (max-width:740px) {
+  *{
+    overflow-x: hidden;
   }
 }
