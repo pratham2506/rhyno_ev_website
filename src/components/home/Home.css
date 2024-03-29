@@ -1,22 +1,42 @@
-.Drone_head{
-    background: url('https://149355317.v2.pressablecdn.com/wp-content/uploads/2017/02/Mapping-and-Modeling-Drone-Training-1920x1080.jpg'),no-repeat;
+.Drone_head {
+    background: url('https://149355317.v2.pressablecdn.com/wp-content/uploads/2017/02/Mapping-and-Modeling-Drone-Training-1920x1080.jpg') no-repeat;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 5rem;
-    /* margin-bottom: 3rem; */
     height: 100vh;
+    perspective: 1000px; /* Add perspective for 3D effect */
 }
-.Drone_head .content{
+
+.Drone_head .content {
     padding: 0 1rem;
 }
-.Drone_head .content h1{
+
+.Drone_head .content h1 {
     font-size: var(--heading);
     color: #fff;
-    text-align: center;
     text-transform: uppercase;
+    position: relative; /* Required for 3D transformations */
 }
-.Drone_head .content span{
-    font-weight: 10;
+
+.Drone_head .content h1 .rotate {
+    position: absolute;
+    color: var(--yellow);
+    top: 0;
+    margin-left: 20px;
+    left: 110;
+    transition: transform 0.5s;
+}
+
+.aligncenter{
+    text-align: center;
+}
+
+.alignleft{
+    text-align: left;
+}
+
+.yellow{
+    color: var(--yellow);
 }

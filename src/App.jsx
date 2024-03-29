@@ -22,7 +22,7 @@ function App() {
       <Home/>
       {/* <AboutPage/> */}
       {/* <About/> */}
-      {/* <Vehicle_Img/> */}
+      <Vehicle_Img/>
       {/* <Spec/> */}
       {/* <ColorChange/> */}
       {/* <Privacy/> */}

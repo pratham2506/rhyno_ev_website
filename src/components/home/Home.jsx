@@ -3,57 +3,35 @@ import './Home.css'
 
 const Home = () => {
   const [loopNum, setLoopNum] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Style", "Elegance", "Minimalism","Comfort"];
-  const [text, setText] = useState('');
-  const [delta, setDelta] = useState(50); // Faster initial typing speed
-  const period = 800;
+  const toRotate = ["Style", "Elegance", "Minimalism", "Comfort"];
+  const [textIndex, setTextIndex] = useState(0);
 
   useEffect(() => {
-    let ticker = setInterval(() => {
+    const ticker = setInterval(() => {
       tick();
-    }, delta);
+    }, 1000); // Change words every 1 seconds
 
-    return () => { clearInterval(ticker) };
-  }, [text]);
+    return () => {
+      clearInterval(ticker);
+    };
+  }, [textIndex]);
 
   const tick = () => {
-    let i = loopNum % toRotate.length;
-    let fullText = toRotate[i];
-    let updatedText;
-
-    if (!isDeleting) {
-      updatedText = fullText.substring(0, text.length + 1); // Write the entire line at once
-    } else {
-      updatedText = fullText.substring(0, text.length - 1);
-    }
-
-    setText(updatedText);
-
-    if (isDeleting) {
-      setDelta(prevDelta => prevDelta / 2);
-    }
-
-    if (!isDeleting && updatedText === fullText) {
-      setIsDeleting(true);
-      setDelta(period);
-    } else if (isDeleting && updatedText === '') {
-      setIsDeleting(false);
-      setLoopNum(loopNum + 1);
-      setDelta(50); // Reset typing speed for the next line
-    }
-  }
+    setTextIndex((textIndex + 1) % toRotate.length);
+  };
 
   return (
     <div>
       <div className="Drone_head">
         <div className="content">
-          <h1>Let's Elevate Your Ride Experience <br /> With Rhyno</h1>
-          <h1 className='animation'>Where Superiority Meets {text}<span>|</span></h1>
+          <h1 className='aligncenter'>Let's Elevate Your Ride Experience <br /> With <span className='yellow'>Rhyno</span> </h1>
+          <h1 className='animation alignleft'>
+            Where Superiority Meets <span className='rotate'>{toRotate[textIndex]}</span>
+          </h1>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;
