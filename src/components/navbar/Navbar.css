@@ -28,8 +28,8 @@
   cursor: pointer;
   z-index: 1010;
   font-size: 1.8rem;
-  color: var(--white);
-  transition: transform 0.2s ease;
+  color: var(--yellow);
+  transition: transform 0.5s ease;
 }
 
 #nav-toggler:checked{

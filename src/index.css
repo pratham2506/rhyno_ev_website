@@ -16,7 +16,7 @@
   --calibri:"Calibri", sans-serif;
 
   /* Font Sizes */
-  --heading: clamp(1.5rem,3.5vw,3.2rem);
+  --heading: clamp(2.1rem,3.5vw,3.2rem);
   --medium:clamp(1.5rem,1.8vw,2.2rem);
   --para:clamp(1rem,1.2vw,1.25rem);
   --small:clamp(0.8rem,0.9vw,1.15rem);
@@ -36,3 +36,13 @@
   /* overflow-x: hidden; */
   /* overflow-y: hidden; */
 }
+
+body{
+  background-color: #ffffff;
+    height: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+

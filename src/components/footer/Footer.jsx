@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -30,10 +31,10 @@ const Footer = () => {
 
           <small>Quick Links</small>
         <div className="ft-quick">
-            <li>Privacy</li>
-            <li>Contact Us</li>
+            <Link to='/Privacy'><li>Privacy</li></Link>
+            <Link to='/Contact'><li>Contact Us</li></Link>
             <li>Careers</li>
-            <li>Rentals</li>
+            <Link to='/'><li>Rentals</li></Link>
             {/* <li>Home</li> */}
         </div>
         <p>Copyright &copy; 2024 Rhyno Wheels Private Limited. All Rights Reserved.</p>
