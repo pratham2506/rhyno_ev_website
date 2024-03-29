@@ -140,41 +140,35 @@
   transition: all ease .3s;
 }
 
-@media (max-width:768px){
-  .social{
+@media (max-width: 768px) {
+  .social {
     flex-direction: row;
     width: 100%;
-    top: 0;
+    top: 80%;
     right: 0;
-    height: 100%;
+    height: 100px;
     justify-content: center;
     align-items: flex-end;
     padding: 0 0 4rem 0;
   }
-  .logo{
+  .logo {
     left: 30px;
   }
-  .navbar{
+  .navbar {
     height: 100vh;
   }
-  .background-image{
+  .background-image {
     height: 100vh;
+  }
+  *{
+    overflow-x: hidden;
+    -webkit-scrollbar: none; 
   }
 }
 
 @media (max-width:480px){
- 
-
- 
   #nav-toggler{
     right: 40px;
-  }
-}
-
-@media (max-width:740px) {
-  *{
-    overflow-x: hidden;
-    overflow-y: hidden;
   }
 }
 

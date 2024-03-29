@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className={`main-navdiv sticky ${isOpen ? "open" : ""}`}>
-      <Link to='/' onClick={closeNavbar}>
+      <Link to="/" onClick={closeNavbar}>
         <img src={Logo} alt="" className="logo" />
       </Link>
       <input
@@ -28,30 +28,30 @@ const Navbar = () => {
         onChange={handleToggle}
       />
       <nav className="navbar">
-        <a data-text="home">
-          <Link to='/' onClick={closeNavbar}>Home</Link>
+        <a data-text="home" onClick={closeNavbar}>
+          <Link to="/">Home</Link>
         </a>
-        <a href="#" data-text="se03">
-          <Link to='/SE03' onClick={closeNavbar}>se03</Link>
+        <a data-text="se03" onClick={closeNavbar}>
+          <Link to="/SE03">se03</Link>
         </a>
-        <a href="#" data-text="se03 max">
-        <Link to='/SE03MAX' onClick={closeNavbar}>se03 max</Link>
+        <a data-text="se03 max" onClick={closeNavbar}>
+          <Link to="/SE03MAX">se03 max</Link>
         </a>
-        <a href="#" data-text="se03 lite">
-        <Link to='/SE03LITE' onClick={closeNavbar}>se03 lite</Link>
+        <a data-text="se03 lite" onClick={closeNavbar}>
+          <Link to="/SE03LITE">se03 lite</Link>
         </a>
-        <a href="#" data-text="compare">
-        <Link to='/' onClick={closeNavbar}>compare</Link>
+        <a data-text="compare" onClick={closeNavbar}>
+          <Link to="/">compare</Link>
         </a>
-        <a href="#" data-text="about">
-        <Link to='/About' onClick={closeNavbar}>about</Link> 
+        <a data-text="about" onClick={closeNavbar}>
+          <Link to="/About">about</Link>
         </a>
-        <a href="#" data-text="contact">
-        <Link to='/Contact' onClick={closeNavbar}>contact</Link>
+        <a data-text="contact" onClick={closeNavbar}>
+          <Link to="/Contact">contact</Link>
         </a>
         <div className="background-image"></div>
         <div className="social">
-        <a href="">
+          <a href="">
             <i class="fa-brands fa-instagram"></i>
           </a>
           <a href="">
