@@ -34,6 +34,7 @@
   text-decoration: none;
   font-family: var(--poppins);
   transition: all .2s linear;
+  scroll-behavior: smooth;
   /* overflow-x: hidden; */
   /* overflow-y: hidden; */
 }

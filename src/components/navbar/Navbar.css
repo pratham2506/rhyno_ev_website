@@ -22,6 +22,7 @@
 
 #nav-toggler{
   -webkit-appearance: none;
+  overflow-y: hidden;
   position: absolute;
   top:30px; 
   right: 70px;
@@ -128,6 +129,7 @@
   top: 200px;
   right: 100px;
   gap: 2rem;
+  overflow-y: hidden;
 }
 
 .social a{

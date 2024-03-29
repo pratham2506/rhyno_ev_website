@@ -82,6 +82,7 @@ margin: 0 auto;
 
 .ft-lets{
     width: 300px;
+    overflow-y: hidden;
 }
 
 .ft-lets small{

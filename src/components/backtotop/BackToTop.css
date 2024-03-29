@@ -7,7 +7,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-
+    overflow-y: hidden;
     height: 40px;
     width: 40px;
     z-index: 30;
