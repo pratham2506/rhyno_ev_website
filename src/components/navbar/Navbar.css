@@ -87,7 +87,7 @@
 .background-image{
   position: absolute;
   top:0; left:0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background: url(../../assets/nav-img-1.jpg) no-repeat;
   background-size: cover;
@@ -164,10 +164,19 @@
   .navbar{
     height: max-content;
   }
+  #nav-toggler{
+    right: 40px;
+  }
 }
 
 @media (max-width:740px) {
   *{
     overflow-x: hidden;
+  }
+}
+
+@media (max-width:1000px) {
+  #nav-toggler{
+    right: 50px;
   }
 }
