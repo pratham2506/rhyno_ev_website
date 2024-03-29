@@ -157,6 +157,9 @@
   .logo{
     left: 30px;
   }
+  .background-image{
+    background-size: contain;
+  }
 }
 
 @media (max-width:1000px) {
