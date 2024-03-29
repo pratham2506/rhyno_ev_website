@@ -154,6 +154,12 @@
   .logo{
     left: 30px;
   }
+  .navbar{
+    height: 100vh;
+  }
+  .background-image{
+    height: 100vh;
+  }
 }
 
 @media (max-width:480px){
