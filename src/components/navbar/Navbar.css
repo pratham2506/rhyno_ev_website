@@ -163,13 +163,9 @@
 }
 
 @media (max-width:480px){
-  .social{
-    display: none;
-  }
+ 
 
-  .navbar{
-    height: max-content;
-  }
+ 
   #nav-toggler{
     right: 40px;
   }
