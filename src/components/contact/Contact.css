@@ -71,7 +71,7 @@
 .ct-social a{
     text-decoration: none;
     color: var(--dark-grey);
-    font-size: var(--para);
+    font-size: var(--medium);
     margin-top: 3rem;
     margin-bottom: 5px;
 }
