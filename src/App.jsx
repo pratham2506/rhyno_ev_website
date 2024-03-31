@@ -20,7 +20,7 @@ function App() {
   
 
   return (
-    <>
+    <div className='mainscroll'>
       {/* <Navbar/> */}
       <Home/>
       {/* <CompareTable/> */}
@@ -38,7 +38,7 @@ function App() {
       {/* <Footer/> */}
       {/* <BackToTop/> */}
       {/* <Cursor/> */}
-    </>
+    </div>
   )
 }
 
