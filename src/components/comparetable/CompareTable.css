@@ -1,0 +1,88 @@
+/* This Snippet Created By: Osama Bakri */
+.p-70 {
+    padding: 70px 0;
+  }
+  .section-head {
+    margin-bottom: 64px;
+    text-align: center;
+  }
+
+  .container{
+    height: 100%;
+    margin: 5rem 0;
+  }
+  
+  .section-head h2 {  
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 45px;
+    margin-bottom: 16px;
+  }
+  
+  .section-head p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;  
+    margin-bottom: 0;
+    color: rgba(3, 27, 78, 0.7);
+  }
+  .compare .c-table table {
+    border: none;
+  }
+  /* H Table */
+  .compare .h-table {
+    position: sticky;
+    top: 0px;
+    background: #fff;
+  }
+  /* Table Head */
+  .compare .c-table thead tr th {
+    width: 35%;
+    text-align: left;
+    border: none;
+  }
+  .compare .c-table .h-table thead tr td {
+    border-top: 1px solid #c1c7d0;
+  }
+  .compare .c-table thead tr td:last-child {
+    border-right: 1px solid #c1c7d0;
+  }
+  .compare .c-table thead tr td {
+    width: 16.25%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "roboto", sans-serif;
+    color: #2c2f3e;
+    border: none;
+    border-left: 1px solid #c1c7d0;
+  }
+  .compare .c-table th,
+  .compare .c-table td {
+    padding: 25px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    color: #2c2f3e;
+  }
+  .compare .c-table td i {
+    font-size: 20px;
+    color: #0069ff;
+  }
+  /* Table Body */
+  .compare .c-table tbody tr th {
+    text-align: left;
+    border-left: none;
+    font-size: 15px;
+    color: #2c2f3e;
+    border-color: #c1c7d0;
+  }
+  .compare .c-table tbody tr td {
+    border-right: none;
+    font-size: 16px;
+    color: #2c2f3e;
+    border-color: #c1c7d0;
+  }
+  .compare .c-table tbody tr td:last-child {
+    border-right: 1px solid #c1c7d0;
+  }

@@ -13,6 +13,8 @@ import Spec from './components/vechicle_spec/Spec'
 import ColorChange from './components/colorchange/ColorChange'
 import BackToTop from './components/backtotop/BackToTop'
 import Example from './components/rotate/HorizontalScrollCarousel'
+import ColorPicker from './components/colorpicker/ColorPicker'
+import CompareTable from './components/comparetable/CompareTable'
 
 function App() {
   
@@ -21,10 +23,12 @@ function App() {
     <>
       {/* <Navbar/> */}
       <Home/>
+      {/* <CompareTable/> */}
       {/* <AboutPage/> */}
       {/* <About/> */}
       <Vehicle_Img/>
       <Example/>
+      {/* <ColorPicker/> */}
       {/* <Spec/> */}
       {/* <ColorChange/> */}
       {/* <Privacy/> */}

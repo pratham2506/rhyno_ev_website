@@ -67,6 +67,7 @@
   font-weight: bolder;
   position: relative;
   letter-spacing: 3px;
+  text-decoration: none;
 }
 
 .navbar a::before{

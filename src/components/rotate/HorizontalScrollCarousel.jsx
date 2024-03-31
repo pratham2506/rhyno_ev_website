@@ -4,7 +4,7 @@ import './Rotate.css'
 
 const Example = () => {
   return (
-    <div className="bg-neutral-800">
+    <div>
       {/* <div className="flex h-48 items-center justify-center">
         <span className="font-semibold uppercase text-neutral-500">
           Scroll down

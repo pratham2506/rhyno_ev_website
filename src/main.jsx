@@ -13,6 +13,7 @@ import SE03Lite from './routes/SE03Lite.jsx'
 import AboutUs from './routes/AboutUs.jsx'
 import BackToTop from './components/backtotop/BackToTop.jsx'
 import Privacyp from './routes/Privacyp.jsx'
+import CompareTable from './components/comparetable/CompareTable.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='/SE03LITE' element={<SE03Lite/>}/>
       <Route path='/About' element={<AboutUs/>}/>
       <Route path='/Privacy' element={<Privacyp/>}/>
+      <Route path='/Compare' element={<CompareTable/>}/>
     </Routes>
     <Footer/>
     <BackToTop/>

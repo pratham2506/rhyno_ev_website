@@ -41,7 +41,7 @@ const Navbar = () => {
           <Link to="/SE03LITE">se03 lite</Link>
         </a>
         <a data-text="compare" onClick={closeNavbar}>
-          <Link to="/">compare</Link>
+          <Link to="/Compare">compare</Link>
         </a>
         <a data-text="about" onClick={closeNavbar}>
           <Link to="/About">about</Link>
