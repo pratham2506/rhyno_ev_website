@@ -12,6 +12,7 @@ import Vehicle_Img from './components/vehicle_img/Vehicle_Img'
 import Spec from './components/vechicle_spec/Spec'
 import ColorChange from './components/colorchange/ColorChange'
 import BackToTop from './components/backtotop/BackToTop'
+import Example from './components/rotate/HorizontalScrollCarousel'
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
       {/* <AboutPage/> */}
       {/* <About/> */}
       <Vehicle_Img/>
+      <Example/>
       {/* <Spec/> */}
       {/* <ColorChange/> */}
       {/* <Privacy/> */}

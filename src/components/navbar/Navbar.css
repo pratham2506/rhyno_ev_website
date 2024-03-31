@@ -4,9 +4,6 @@
   z-index: 1010;
   /* background-color: var(--light-grey); */
   /* backdrop-filter: blur(10px); */
-}
-
-.sticky{
   position: absolute;
   top: 0;
 }

@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`main-navdiv sticky ${isOpen ? "open" : ""}`}>
+    <div className={`main-navdiv ${isOpen ? "open" : ""}`}>
       <Link to="/" onClick={closeNavbar}>
         <img src={Logo} alt="" className="logo" />
       </Link>
