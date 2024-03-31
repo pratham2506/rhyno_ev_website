@@ -7,7 +7,7 @@
   max-width: 1200px;
   height: 80vh;
   /* border: 5px double var(--light-grey); */
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 #output img {
@@ -21,7 +21,7 @@
   max-width: 20rem;
   height: 3rem;
   display: flex;
-  margin: auto;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
 }

@@ -1,9 +1,9 @@
 /* This Snippet Created By: Osama Bakri */
 .p-70 {
-    padding: 70px 0;
+    padding: 10rem 1.2rem;
   }
   .section-head {
-    margin-bottom: 64px;
+    margin-bottom: 2rem;
     text-align: center;
   }
 
@@ -14,18 +14,17 @@
   
   .section-head h2 {  
     text-transform: capitalize;
-    font-size: 36px;
+    font-size: var(--medium);
     font-weight: bold;
-    line-height: 45px;
-    margin-bottom: 16px;
+    line-height: 1.4;
+    margin-bottom: 1rem;
   }
   
   .section-head p {
-    font-size: 20px;
+    font-size: var(--para);
     font-weight: 400;
-    line-height: 30px;  
+    line-height: 1.4;  
     margin-bottom: 0;
-    color: rgba(3, 27, 78, 0.7);
   }
   .compare .c-table table {
     border: none;
@@ -34,7 +33,7 @@
   .compare .h-table {
     position: sticky;
     top: 0px;
-    background: #fff;
+    background: var(--white);
   }
   /* Table Head */
   .compare .c-table thead tr th {
@@ -43,46 +42,44 @@
     border: none;
   }
   .compare .c-table .h-table thead tr td {
-    border-top: 1px solid #c1c7d0;
+    border-top: 1px solid var(--light-grey);
   }
   .compare .c-table thead tr td:last-child {
-    border-right: 1px solid #c1c7d0;
+    border-right: 1px solid var(--light-grey);
   }
   .compare .c-table thead tr td {
     width: 16.25%;
     font-weight: bold;
-    font-size: 20px;
-    font-family: "roboto", sans-serif;
-    color: #2c2f3e;
+    font-size: var(--para);
+    color: var(--black);
     border: none;
-    border-left: 1px solid #c1c7d0;
+    border-left: 1px solid var(--light-grey);
   }
   .compare .c-table th,
   .compare .c-table td {
     padding: 25px;
     vertical-align: middle;
     text-align: center;
-    font-family: "roboto", sans-serif;
-    color: #2c2f3e;
+    color: var(--black);
   }
   .compare .c-table td i {
-    font-size: 20px;
-    color: #0069ff;
+    font-size: var(--para);
+    color: var(--yellow);
   }
   /* Table Body */
   .compare .c-table tbody tr th {
     text-align: left;
     border-left: none;
-    font-size: 15px;
-    color: #2c2f3e;
-    border-color: #c1c7d0;
+    font-size: var(--para);
+    color: var(--black);
+    border-color: var(--light-grey);
   }
   .compare .c-table tbody tr td {
     border-right: none;
-    font-size: 16px;
-    color: #2c2f3e;
-    border-color: #c1c7d0;
+    font-size: var(--para);
+    color: var(--black);
+    border-color: var(--light-grey);
   }
   .compare .c-table tbody tr td:last-child {
-    border-right: 1px solid #c1c7d0;
+    border-right: 1px solid var(--light-grey);
   }
