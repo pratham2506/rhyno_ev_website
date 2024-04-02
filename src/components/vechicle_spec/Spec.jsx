@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 import './Spec.css'
 import { MdOutlineOfflineBolt } from "react-icons/md";
 import { PiPersonSimpleBikeFill } from "react-icons/pi";
@@ -16,10 +18,17 @@ import charger from '../../assets/charger.png'
 
 
 const Spec = () => {
+    useEffect(() => {
+        Aos.init({
+            duration:600,
+            easing:"ease",
+            once:true,
+        });
+    });
   return (
     <div>
       <div className="spec-maindiv">
-        <div className="spec-info1">
+        <div className="spec-info1" data-aos="flip-right" data-aos-delay="400">
             <div className="spec-inside">
             <img src={bolt} alt="" className='spec-icon'/>
         <p>Power</p>
@@ -39,11 +48,11 @@ const Spec = () => {
             </div>
         </div>
 
-        <div className="spec-centerimg">
+        <div className="spec-centerimg" data-aos="flip-left" data-aos-delay="400">
             <img src={IMG1} alt="" />
         </div>
 
-        <div className="spec-info2">
+        <div className="spec-info2" data-aos="flip-right" data-aos-delay="400">
             <div className="spec-inside">
             <img src={scooter1} alt="" className='spec-icon'/>
         <p>Comfort</p>

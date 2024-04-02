@@ -21,8 +21,8 @@
 
 .hs-four{
     position: relative;
-    height: 28rem;
-    width: 28rem;
+    height: 100vh;
+    width: 1200px;
     overflow: hidden;
     background-color: var(--yellow);
 }

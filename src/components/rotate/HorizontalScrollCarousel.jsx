@@ -1,35 +1,47 @@
-import { motion, useTransform, useScroll } from "framer-motion";
-import { useRef } from "react";
+import { motion, useTransform, useViewportScroll } from "framer-motion";
+import { useRef, useState, useEffect } from "react";
+import { useSwipeable } from "react-swipeable";
 import './Rotate.css'
 
 const Example = () => {
   return (
     <div>
-      {/* <div className="flex h-48 items-center justify-center">
-        <span className="font-semibold uppercase text-neutral-500">
-          Scroll down
-        </span>
-      </div> */}
       <HorizontalScrollCarousel />
-      {/* <div className="flex h-48 items-center justify-center">
-        <span className="font-semibold uppercase text-neutral-500">
-          Scroll up
-        </span>
-      </div> */}
     </div>
   );
 };
 
 const HorizontalScrollCarousel = () => {
   const targetRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
+  const { scrollYProgress } = useViewportScroll();
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detect if the screen size is mobile
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
+  };
+
+  // Listen for resize events
+  useEffect(() => {
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const x = useTransform(scrollYProgress, [0, 1], ["150%", "-110%"]);
+
+  // Swipeable handlers
+  const handlers = useSwipeable({
+    onSwipedLeft: () => {
+      // Swipe left logic
+    },
+    onSwipedRight: () => {
+      // Swipe right logic
+    },
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-70%"]);
-
   return (
-    <section ref={targetRef} className="hs-one">
+    <section ref={targetRef} className="hs-one" {...(isMobile && handlers)}>
       <div className="hs-two">
         <motion.div style={{ x }} className="hs-three">
           {cards.map((card) => {
@@ -54,10 +66,16 @@ const Card = ({ card }) => {
           backgroundPosition: "center",
         }}
         className="hs-five"
-      ></div>
+      >
+        <div className="overlay">
+          <img src={card.icon} alt="Icon" className="icon" />
+          <h3 className="title">{card.title}</h3>
+          <p className="subtitle">{card.subtitle}</p>
+        </div>
+      </div>
       <div className="hs-six">
         <p className="hs-seven">
-          {card.title}
+          {card.description}
         </p>
       </div>
     </div>
@@ -69,37 +87,50 @@ export default Example;
 const cards = [
   {
     url: "/imgs/abstract/1.jpg",
+    icon: "/icons/icon1.png",
     title: "Title 1",
+    subtitle: "Subtitle 1",
+    description: "Description 1",
     id: 1,
   },
   {
-    url: "/imgs/abstract/2.jpg",
-    title: "Title 2",
-    id: 2,
+    url: "/imgs/abstract/1.jpg",
+    icon: "/icons/icon1.png",
+    title: "Title 1",
+    subtitle: "Subtitle 1",
+    description: "Description 1",
+    id: 1,
   },
   {
-    url: "/imgs/abstract/3.jpg",
-    title: "Title 3",
-    id: 3,
+    url: "/imgs/abstract/1.jpg",
+    icon: "/icons/icon1.png",
+    title: "Title 1",
+    subtitle: "Subtitle 1",
+    description: "Description 1",
+    id: 1,
   },
   {
-    url: "/imgs/abstract/4.jpg",
-    title: "Title 4",
-    id: 4,
+    url: "/imgs/abstract/1.jpg",
+    icon: "/icons/icon1.png",
+    title: "Title 1",
+    subtitle: "Subtitle 1",
+    description: "Description 1",
+    id: 1,
   },
   {
-    url: "/imgs/abstract/5.jpg",
-    title: "Title 5",
-    id: 5,
+    url: "/imgs/abstract/1.jpg",
+    icon: "/icons/icon1.png",
+    title: "Title 1",
+    subtitle: "Subtitle 1",
+    description: "Description 1",
+    id: 1,
   },
   {
-    url: "/imgs/abstract/6.jpg",
-    title: "Title 6",
-    id: 6,
-  },
-  {
-    url: "/imgs/abstract/7.jpg",
-    title: "Title 7",
-    id: 7,
+    url: "/imgs/abstract/1.jpg",
+    icon: "/icons/icon1.png",
+    title: "Title 1",
+    subtitle: "Subtitle 1",
+    description: "Description 1",
+    id: 1,
   },
 ];

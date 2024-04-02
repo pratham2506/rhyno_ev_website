@@ -11,6 +11,13 @@
     padding: 5rem 10rem;
 }
 
+.vi-bgimg2{
+    /* align-items: flex-start; */
+    padding: 5rem 10rem;
+    justify-content: flex-end;
+    background-image: url('../../assets/1.png');
+}
+
 .vi-maindiv{
     width: 35%;
     height: 40vh;

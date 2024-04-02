@@ -6,7 +6,7 @@ import ColorPicker from '../components/colorpicker/ColorPicker'
 const SE03 = () => {
   return (
     <div>
-      <Vehicle_Img/>
+      <Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/>
       <Spec/>
       <ColorPicker/>
     </div>

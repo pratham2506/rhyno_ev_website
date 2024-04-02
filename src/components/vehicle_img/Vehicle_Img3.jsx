@@ -1,7 +1,7 @@
 import React from 'react'
 import './Vehicle_Img.css'
 
-const Vehicle_Img = (props) => {
+const Vehicle_Img3 = (props) => {
   return (
     <div className='vi-bgimg'>
       <div className="vi-maindiv">
@@ -27,4 +27,4 @@ const Vehicle_Img = (props) => {
   )
 }
 
-export default Vehicle_Img
+export default Vehicle_Img3

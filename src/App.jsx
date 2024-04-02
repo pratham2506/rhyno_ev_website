@@ -9,12 +9,15 @@ import SnapScroll1 from './components/snap_scroll1/SnapScroll1'
 import AboutPage from './components/about-page/AboutPage'
 import Privacy from './components/privacy_policy/Privacy'
 import Vehicle_Img from './components/vehicle_img/Vehicle_Img'
+import Vehicle_Img2 from './components/vehicle_img/Vehicle_Img2'
 import Spec from './components/vechicle_spec/Spec'
 import ColorChange from './components/colorchange/ColorChange'
 import BackToTop from './components/backtotop/BackToTop'
 import Example from './components/rotate/HorizontalScrollCarousel'
 import ColorPicker from './components/colorpicker/ColorPicker'
 import CompareTable from './components/comparetable/CompareTable'
+import Vehicle_Img3 from './components/vehicle_img/Vehicle_Img3'
+
 
 function App() {
   
@@ -26,7 +29,9 @@ function App() {
       {/* <CompareTable/> */}
       {/* <AboutPage/> */}
       {/* <About/> */}
-      <Vehicle_Img/>
+      <Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/>
+      <Vehicle_Img2 name="SE 03" kms={100} top={55} charge={4}/>
+      <Vehicle_Img3 name="SE 03" kms={100} top={55} charge={4}/>
       <Example/>
       {/* <ColorPicker/> */}
       {/* <Spec/> */}
