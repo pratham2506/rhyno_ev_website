@@ -27,7 +27,7 @@ const Spec = () => {
     });
   return (
     <div>
-      <div className="spec-maindiv">
+      <div className="spec-maindiv"> 
         <div className="spec-info1" data-aos="flip-right" data-aos-delay="400">
             <div className="spec-inside">
             <img src={bolt} alt="" className='spec-icon'/>
