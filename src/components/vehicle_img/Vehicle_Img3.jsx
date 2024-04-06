@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import './Vehicle_Img.css'
+import { Link } from 'react-router-dom'
 
 const Vehicle_Img3 = (props) => {
   useEffect(() => {
@@ -31,6 +32,8 @@ const Vehicle_Img3 = (props) => {
             <p>{props.charge} HRS</p>
             </div>
         </div>
+        <Link to="/SE03LITE"><button className='btn'>See More</button></Link>
+
       </div>
     </div>
   )

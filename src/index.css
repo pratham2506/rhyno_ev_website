@@ -35,3 +35,24 @@
   /* overflow-x: hidden; */
   /* overflow-y: hidden; */
 }
+
+.btn {
+  margin-top: 20px;
+  width: max-content;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: var(--yellow);
+  font-size: 15.996px;
+    line-height: 20px;
+    padding:12px 32px ;
+    border: none;
+    /* background: #bdc3c7; */
+    color: #ffffff;
+    /* padding: 11px 12px 8px; */
+    line-height: 22px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

@@ -21,33 +21,36 @@
 
 .hs-four{
     position: relative;
-    height: 100vh;
-    width: 1200px;
+    height: 600px;
+    width: 600px;
     overflow: hidden;
-    background-color: var(--yellow);
+    background-color: var(--light-grey);
 }
 
 .hs-five{
-    position: absolute;
-    inset: 0px;
+    /* position: absolute; */
+    /* inset: 0px; */
     z-index: 0;
     transition-property: transform;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 3s;
-}
-
-.hs-six{
-    position: absolute;
-    inset: 0px;
-    z-index: 10;
-    display: grid;
-    place-content: center;
+    padding: 2rem;
 }
 
 .hs-seven{
     padding: 2rem;
-    font-size: var(--heading);
+    font-size: var(--para);
     line-height: 1.5;
-    text-transform: uppercase;
+    color: var(--white);
+}
+
+.r-icon{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.r-title{
+    font-size: var(--medium);
     color: var(--white);
 }
