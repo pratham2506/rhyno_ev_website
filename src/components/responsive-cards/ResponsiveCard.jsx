@@ -2,6 +2,12 @@ import React from 'react'
 import './ResponsiveCard.css'
 import { Link } from 'react-router-dom'
 import InsurPage from '../../assets/solution.png'
+import IMG1 from '../../assets/battery.png'
+import IMG2 from '../../assets/best-customer-experience.png'
+import IMG3 from '../../assets/bar-chart.png'
+import IMG4 from '../../assets/solution.png'
+import IMG5 from '../../assets/tyre.png'
+
 
 const ResponsiveCard = () => {
   return (
@@ -23,55 +29,37 @@ const ResponsiveCard = () => {
         </div> */}
     {/* </div> */}
         <div className="di-covered">
-            <h1>What is Covered?</h1>
+            {/* <h1>What is Covered?</h1> */}
             <div className="di-coveredin">
                 <div className="di-partone">
-                    <img src="https://tropogo.com/insurance/assets/images/home/ic_accidental.svg" alt="" />
-                    <h3>Accidental Drone Damage</h3>
-                    <p>Damage to the drone body in case of accident</p>
+                    <img src={IMG1} alt="" />
+                    <h3>LFP Battery</h3>
+                    <p>Equipped with advanced Lithium Iron Phosphate (LFP) batteries, renowned for their safety features—eliminating the risk of fire. These batteries boast a broader temperature range, ideal for the diverse Indian climate. Our technology enhances Rhyno's longevity, complemented by an Active Balancing Smart Battery Management System (BMS) for extended life and reduced maintenance.</p>
                 </div>
 
                 <div className="di-partone">
-                    <img src="https://tropogo.com/insurance/assets/images/home/ic_tpproperty.svg" alt="" />
-                    <h3>Third Party Property Damage</h3>
-                    <p>Accidental damage to a property belonging to a third person</p>
+                    <img src={IMG5} alt="" />
+                    <h3>Wider tyres</h3>
+                    <p>Now, say goodbye to skidding and embrace the leaning turns! Featuring first-of-its-kind, 9.5-inch wider tyres that make this machine an enormous beast that ensures stability on different terrains such as wet roads, mud, and sand.</p>
                 </div>
 
                 <div className="di-partone">
-                    <img src="https://tropogo.com/insurance/assets/images/home/ic_tpinjury.svg" alt="" />
-                    <h3>Third Party Bodily Injury</h3>
-                    <p>Accidental bodily injury or death to a third person</p>
+                    <img src={IMG3} alt="" />
+                    <h3>Range prediction</h3>
+                    <p>Many budget-friendly electric scooters overlook this crucial feature, causing riders to experience range anxiety. With Rhyno, you can ride with peace of mind, thanks to the scooter providing precise information about the remaining battery.</p>
                 </div>
 
                 <div className="di-partone">
-                    <img src="https://tropogo.com/insurance/assets/images/home/ic_BVLOS.png" alt="" />
-                    <h3>BVLOS coverage</h3>
-                    <p>Get this add-on if you are conducting flights Beyond Visual Line of Sight</p>
+                    <img src={IMG2} alt="" />
+                    <h3>Extraordinary Experience</h3>
+                    <p>Rhyno is more than just a mode of transportation. It is an experience of sheer comfort and style! A seamless fusion of minimalism, sophistication, and a touch of masculinity! This experience is enhanced further with lower CG, which makes your Rhyno ultra-lightweight as if you are riding on a feather!!</p>
                 </div>
 
 
                 <div className="di-partone">
-                    <img src="https://tropogo.com/insurance/assets/images/advisor/ic_training.png" alt="" />
-                    <h3>RPTO / Training Cover (Add-on)</h3>
-                    <p>Cover for DGCA Certified Training Drones - Third party, Comprehensive & Add-ons</p>
-                </div>
-
-                <div className="di-partone">
-                    <img src="https://tropogo.com/insurance/assets/images/home/ic_nightFlying.svg" alt="" />
-                    <h3>Night Flying Cover</h3>
-                    <p>Fly risk-free in the night with night flying add-on cover</p>
-                </div>
-
-                <div className="di-partone">
-                    <img src="https://tropogo.com/insurance/assets/images/home/ic_allindia.svg" alt="" />
-                    <h3>All India Coverage</h3>
-                    <p>You can operate your flight within permissible flying zones across India</p>
-                </div>
-
-                <div className="di-partone">
-                    <img src="https://tropogo.com/insurance/assets/images/home/ic_annual.svg" alt="" />
-                    <h3>Annual Plan</h3>
-                    <p>Purchase once and fly without any stress, all through the year</p>
+                    <img src={IMG4} alt="" />
+                    <h3>Rugged and simple Design</h3>
+                    <p>We’ve had enough of the EVs looking and feeling like fragile plastic toys. Often fading out and shamelessly breaking in minor accidents, spending weeks and months at service stations for complex repairs. We took the bold step of making something raw, rugged, and practical. We kept it so simple that even your trusted local mechanic can understand and repair most of it. If you have reached this far, why not to take a test ride? Click here to locate your nearest dealership or book a test ride at your home!</p>
                 </div>
             </div>
         </div>

@@ -38,7 +38,8 @@
 
 .di-partone p{
     font-size: 18px;
-    color: var(--text-grey);
+    color: var(--dark-grey);
+    text-align: justify;
 }
 
 .di-coveredin1{

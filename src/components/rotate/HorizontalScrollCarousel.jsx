@@ -96,12 +96,12 @@ const cards = [
     icon: IMG1,
     title: "LFP Battery",
     subtitle: "Subtitle 1",
-    description: "Equipped with advanced Lithium Iron Phosphate (LFP) batteries, renowned for their safety features—eliminating the risk of fire. These batteries boast a broader temperature range, ideal for the diverse Indian climate. Our technology enhances Rhyno's longevity, complemented by an Active Balancing Smart Battery Management System (BMS) for extended life and reduced maintenance. Each battery undergoes rigorous waterproofing tests according to IP76 standards. But it doesn't stop there—our technology goes the extra mile to ensure the battery's lasting durability. Connect with us to discover the thoughtful engineering behind our batteries!",
+    description: "Equipped with advanced Lithium Iron Phosphate (LFP) batteries, renowned for their safety features—eliminating the risk of fire. These batteries boast a broader temperature range, ideal for the diverse Indian climate. Our technology enhances Rhyno's longevity, complemented by an Active Balancing Smart Battery Management System (BMS) for extended life and reduced maintenance.",
     id: 1,
   },
   {
     url: "/imgs/abstract/1.jpg",
-    icon: IMG2,
+    icon: IMG5,
     title: "Wider tyres",
     subtitle: "Subtitle 1",
     description: "Now, say goodbye to skidding and embrace the leaning turns! Featuring first-of-its-kind, 9.5-inch wider tyres that make this machine an enormous beast that ensures stability on different terrains such as wet roads, mud, and sand.",
@@ -117,7 +117,7 @@ const cards = [
   },
   {
     url: "/imgs/abstract/1.jpg",
-    icon: IMG4,
+    icon: IMG2,
     title: "Extraordinary Experience",
     subtitle: "Subtitle 1",
     description: "Rhyno is more than just a mode of transportation. It is an experience of sheer comfort and style! A seamless fusion of minimalism, sophistication, and a touch of masculinity! This experience is enhanced further with lower CG, which makes your Rhyno ultra-lightweight as if you are riding on a feather!!",
@@ -125,7 +125,7 @@ const cards = [
   },
   {
     url: "/imgs/abstract/1.jpg",
-    icon: IMG5,
+    icon: IMG4,
     title: "Rugged and simple Design",
     subtitle: "Subtitle 1",
     description: "We’ve had enough of the EVs looking and feeling like fragile plastic toys. Often fading out and shamelessly breaking in minor accidents, spending weeks and months at service stations for complex repairs. We took the bold step of making something raw, rugged, and practical. We kept it so simple that even your trusted local mechanic can understand and repair most of it. If you have reached this far, why not to take a test ride? Click here to locate your nearest dealership or book a test ride at your home!",
