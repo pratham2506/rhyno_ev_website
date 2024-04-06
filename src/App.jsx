@@ -17,6 +17,8 @@ import Example from './components/rotate/HorizontalScrollCarousel'
 import ColorPicker from './components/colorpicker/ColorPicker'
 import CompareTable from './components/comparetable/CompareTable'
 import Vehicle_Img3 from './components/vehicle_img/Vehicle_Img3'
+import ResponsiveCard from './components/responsive-cards/ResponsiveCard'
+import './App.css'
 
 
 function App() {
@@ -32,7 +34,10 @@ function App() {
       <Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/>
       <Vehicle_Img2 name="SE 03" kms={100} top={55} charge={4}/>
       <Vehicle_Img3 name="SE 03" kms={100} top={55} charge={4}/>
-      <Example/>
+      
+      <div className="example"> <Example/></div>
+      <div className="responsivediv"> <ResponsiveCard/></div>
+     
       {/* <ColorPicker/> */}
       {/* <Spec/> */}
       {/* <ColorChange/> */}

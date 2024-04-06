@@ -51,7 +51,7 @@ const HorizontalScrollCarousel = () => {
       <div className="hs-two">
         <motion.div style={{ x }} className="hs-three">
           {cards.map((card) => {
-            return <Card card={card} key={card.id} />;
+            return <Card card={card} key={card.id} isMobile={isMobile} />;
           })}
         </motion.div>
       </div>
@@ -59,11 +59,11 @@ const HorizontalScrollCarousel = () => {
   );
 };
 
-const Card = ({ card }) => {
+const Card = ({ card, isMobile }) => {
   return (
     <div
       key={card.id}
-      className="hs-four"
+      className={`hs-four ${isMobile ? 'mobile' : ''}`} // Add a class for mobile styling
     >
       <div
         style={{
