@@ -40,3 +40,12 @@
 .yellow{
     color: var(--yellow);
 }
+
+@media (max-width:500px) {
+    .Drone_head .content h1 .rotate{
+        top: 40px;
+    }
+    .aligncenter{
+        text-align: left;
+    }
+}
