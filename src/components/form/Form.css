@@ -59,7 +59,7 @@
 
 .newForm .newRight{
     width: 35%;
-    background-image: url("https://droneairgear.com/assets/formDrone-14358826.png");
+    background-image: url("../../assets/1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,10 +179,12 @@
     border: none;
     border-radius: 3px;
     font-size: var(--para);
+    text-transform: uppercase;
 }
 .submitForm:hover{
     transition: .5s ease all;
     background: var(--yellow);
+    color: var(--black);
 }
 
 input[type=file]::file-selector-button {

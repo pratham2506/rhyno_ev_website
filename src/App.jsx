@@ -20,6 +20,7 @@ import Vehicle_Img3 from './components/vehicle_img/Vehicle_Img3'
 import ResponsiveCard from './components/responsive-cards/ResponsiveCard'
 import './App.css'
 import Form from './components/form/Form'
+import BuyNow from './components/buynow/BuyNow'
 
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
       {/* <div className="example"> <Example/></div> */}
       {/* <div className="responsivediv"> <ResponsiveCard/></div> */}
       <Form/>
-     
+      <BuyNow/>
       {/* <ColorPicker/> */}
       {/* <Spec/> */}
       {/* <ColorChange/> */}
