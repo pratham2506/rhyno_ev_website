@@ -426,4 +426,5 @@ input[type=file]::file-selector-button {
   .f-select{
     width: 99.5%;
     font-weight: 500;
+    height: max-content;
   }
