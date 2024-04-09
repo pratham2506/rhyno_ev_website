@@ -63,3 +63,9 @@
   left: 85%;
 }
 
+@media (max-width:732px) {
+  .btn22{
+    left: 70%;
+  }
+}
+
