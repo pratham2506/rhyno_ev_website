@@ -19,6 +19,7 @@ import CompareTable from './components/comparetable/CompareTable'
 import Vehicle_Img3 from './components/vehicle_img/Vehicle_Img3'
 import ResponsiveCard from './components/responsive-cards/ResponsiveCard'
 import './App.css'
+import Form from './components/form/Form'
 
 
 function App() {
@@ -27,16 +28,17 @@ function App() {
   return (
     <div className='mainscroll'>
       {/* <Navbar/> */}
-      <Home/>
+      {/* <Home/> */}
       {/* <CompareTable/> */}
       {/* <AboutPage/> */}
       {/* <About/> */}
-      <Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/>
-      <Vehicle_Img2 name="SE 03" kms={100} top={55} charge={4}/>
-      <Vehicle_Img3 name="SE 03" kms={100} top={55} charge={4}/>
+      {/* <Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/> */}
+      {/* <Vehicle_Img2 name="SE 03" kms={100} top={55} charge={4}/> */}
+      {/* <Vehicle_Img3 name="SE 03" kms={100} top={55} charge={4}/> */}
       
-      <div className="example"> <Example/></div>
-      <div className="responsivediv"> <ResponsiveCard/></div>
+      {/* <div className="example"> <Example/></div> */}
+      {/* <div className="responsivediv"> <ResponsiveCard/></div> */}
+      <Form/>
      
       {/* <ColorPicker/> */}
       {/* <Spec/> */}
