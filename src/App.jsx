@@ -29,17 +29,17 @@ function App() {
   return (
     <div className='mainscroll'>
       {/* <Navbar/> */}
-      {/* <Home/> */}
+      <Home/>
       {/* <CompareTable/> */}
       {/* <AboutPage/> */}
       {/* <About/> */}
-      {/* <Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/> */}
-      {/* <Vehicle_Img2 name="SE 03" kms={100} top={55} charge={4}/> */}
-      {/* <Vehicle_Img3 name="SE 03" kms={100} top={55} charge={4}/> */}
+      <Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/>
+      <Vehicle_Img2 name="SE 03" kms={100} top={55} charge={4}/>
+      <Vehicle_Img3 name="SE 03" kms={100} top={55} charge={4}/>
       
-      {/* <div className="example"> <Example/></div> */}
-      {/* <div className="responsivediv"> <ResponsiveCard/></div> */}
-      <Form/>
+      <div className="example"> <Example/></div>
+      <div className="responsivediv"> <ResponsiveCard/></div>
+      {/* <Form/> */}
       <BuyNow/>
       {/* <ColorPicker/> */}
       {/* <Spec/> */}
