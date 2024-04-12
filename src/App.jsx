@@ -34,11 +34,11 @@ function App() {
       {/* <AboutPage/> */}
       {/* <About/> */}
       <Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/>
-      <Vehicle_Img2 name="SE 03" kms={100} top={55} charge={4}/>
-      <Vehicle_Img3 name="SE 03" kms={100} top={55} charge={4}/>
+      <Vehicle_Img2 name="SE 03 LITE" kms={100} top={55} charge={4}/>
+      <Vehicle_Img3 name="SE 03 MAX" kms={100} top={55} charge={4}/>
       
-      <div className="example"> <Example/></div>
-      <div className="responsivediv"> <ResponsiveCard/></div>
+      {/* <div className="example"> <Example/></div> */}
+      {/* <div className="responsivediv"> <ResponsiveCard/></div> */}
       {/* <Form/> */}
       <BuyNow/>
       {/* <ColorPicker/> */}

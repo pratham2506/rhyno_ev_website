@@ -38,6 +38,7 @@
 
 .btn {
   margin-top: 20px;
+  margin-right:  1rem;
   width: max-content;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -48,7 +49,7 @@
     padding:12px 32px ;
     border: none;
     /* background: #bdc3c7; */
-    color: #ffffff;
+    color: var(--black);
     /* padding: 11px 12px 8px; */
     line-height: 22px;
     text-decoration: none;
@@ -61,6 +62,16 @@
   position: fixed;
   top: 85%;
   left: 85%;
+}
+
+.btn22 a{
+  text-decoration: none;
+  color: var(--black);
+}
+
+.btn a{
+  text-decoration: none;
+  color: var(--black);
 }
 
 @media (max-width:732px) {

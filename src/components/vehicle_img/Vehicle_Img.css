@@ -3,7 +3,7 @@
     height: 100vh;
     background-image: url('../../assets/11.png');
     background-color: var(--dark-grey);
-    background-size: cover;
+    background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
@@ -15,7 +15,7 @@
     /* align-items: flex-start; */
     padding: 5rem 10rem;
     justify-content: flex-end;
-    background-image: url('../../assets/1.png');
+    background-image: url('../../assets/11.png');
 }
 
 .vi-maindiv{
