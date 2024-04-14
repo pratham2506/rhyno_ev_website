@@ -182,6 +182,10 @@
   #nav-toggler{
     right: 40px;
   }
+  .background-image{
+    background-size: contain;
+    background-position: right;
+  }
 }
 
 @media (max-width:1000px) {
