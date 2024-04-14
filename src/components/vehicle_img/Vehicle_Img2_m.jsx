@@ -23,7 +23,7 @@ const Vehicle_Img2_m = (props) => {
 
   return (
     <div>
-      <div className="vi-maindiv">
+      <div className="vi-maindiv vi-bg">
         
         <div className="vi-imgdiv">
           <img src={IMG1} alt="" />
