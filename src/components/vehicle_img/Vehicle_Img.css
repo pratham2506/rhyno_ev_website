@@ -1,6 +1,6 @@
 .vi-bgimg{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: url('../../assets/11.png');
     background-color: var(--dark-grey);
     background-size: contain;
