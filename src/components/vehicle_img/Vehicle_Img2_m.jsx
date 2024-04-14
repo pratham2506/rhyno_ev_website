@@ -24,11 +24,7 @@ const Vehicle_Img2_m = (props) => {
   return (
     <div>
       <div className="vi-maindiv vi-bg">
-        
-        <div className="vi-imgdiv">
-          <img src={IMG1} alt="" />
-        </div>
-        <div className="vi-textdiv">
+      <div className="vi-textdiv">
           <h1>SE03</h1>
           <div className="vi-info">
             <div className="vi-one">
@@ -49,6 +45,10 @@ const Vehicle_Img2_m = (props) => {
           <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
           </div>
         </div>
+        <div className="vi-imgdiv">
+          <img src={IMG1} alt="" />
+        </div>
+        
         <div className="vi-btns vi-hidden">
           <Link to="/SE03"><button className='btn'>See More</button></Link>
           <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
