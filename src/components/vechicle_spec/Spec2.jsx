@@ -17,18 +17,18 @@ import wheel from '../../assets/wheel.png'
 import charger from '../../assets/charger.png'
 
 
-const Spec = () => {
-    useEffect(() => {
-        Aos.init({
-            duration:600,
-            easing:"ease",
-            once:true,
-        });
-    });
+const Spec2 = () => {
+    // useEffect(() => {
+    //     Aos.init({
+    //         duration:600,
+    //         easing:"ease",
+    //         once:true,
+    //     });
+    // });
   return (
     <div>
       <div className="spec-maindiv"> 
-        <div className="spec-info1" data-aos="flip-right" data-aos-delay="400">
+        <div className="spec-info1" >
             <div className="spec-inside">
             <img src={bolt} alt="" className='spec-icon'/>
         <p>Power</p>
@@ -48,11 +48,11 @@ const Spec = () => {
             </div>
         </div>
 
-        <div className="spec-centerimg" data-aos="flip-left" data-aos-delay="400">
+        <div className="spec-centerimg">
             <img src={IMG1} alt="" />
         </div>
 
-        <div className="spec-info2" data-aos="flip-right" data-aos-delay="400">
+        <div className="spec-info2" >
             <div className="spec-inside">
             <img src={scooter1} alt="" className='spec-icon'/>
         <p>Comfort</p>
@@ -76,4 +76,4 @@ const Spec = () => {
   )
 }
 
-export default Spec
+export default Spec2
