@@ -36,13 +36,13 @@ function App() {
       {/* <CompareTable/> */}
       {/* <AboutPage/> */}
       {/* <About/> */}
-      <div className="example"><Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/></div>
-      <div className="example"><Vehicle_Img2 name="SE 03 LITE" kms={100} top={55} charge={4}/></div>
-      <div className="example"><Vehicle_Img3 name="SE 03 MAX" kms={100} top={55} charge={4}/></div>
+      <div className='example'><Vehicle_Img/></div>
+      <div className="example"><Vehicle_Img2/></div>
+      <div className="example"><Vehicle_Img3/></div>
 
-      <div className="responsivediv"><Vehicle_Img_m name="SE 03" kms={100} top={55} charge={4}/></div>
-      <div className="responsivediv"><Vehicle_Img2_m name="SE 03 LITE" kms={100} top={55} charge={4}/></div>
-      <div className="responsivediv"><Vehicle_Img3_m name="SE 03 MAX" kms={100} top={55} charge={4}/></div>
+      <div className="responsivediv"><Vehicle_Img_m/></div>
+      <div className="responsivediv"><Vehicle_Img2_m/></div>
+      <div className="responsivediv"><Vehicle_Img3_m/></div>
       
       <div className="example"> <Example/></div>
       <div className="responsivediv"> <ResponsiveCard/></div>

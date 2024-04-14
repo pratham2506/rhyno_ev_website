@@ -38,7 +38,7 @@
 
 .btn {
   margin-top: 20px;
-  margin-right:  1rem;
+  /* margin-right:  1rem; */
   width: max-content;
   letter-spacing: 2px;
   text-transform: uppercase;

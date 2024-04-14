@@ -3,6 +3,8 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './Vehicle_Img.css';
 import { Link } from 'react-router-dom';
+import IMG1 from '../../assets/Product1.png'
+
 
 const Vehicle_Img2 = (props) => {
   useEffect(() => {
@@ -20,27 +22,37 @@ const Vehicle_Img2 = (props) => {
   };
 
   return (
-    <div className='vi-bgimg vi-bgimg2'>
-      <div className="vi-maindiv" data-aos="flip-right" data-aos-delay="100">
-        <h1>{props.name}</h1>
-        <div className="vi-info">
-          <div className="vi-one">
-            <small>Certified Range</small>
-            <p>{props.kms} KMS</p>
+    <div>
+      <div className="vi-maindiv">
+        
+        <div className="vi-imgdiv">
+          <img src={IMG1} alt="" className='vi-flip'/>
+        </div>
+        <div className="vi-textdiv" data-aos="flip-right" data-aos-delay="400">
+          <h1>SE03</h1>
+          <div className="vi-info">
+            <div className="vi-one">
+              <small>Certified Range</small>
+              <p>100KMS</p>
+            </div>
+            <div className="vi-one">
+              <small>Certified Range</small>
+              <p>100KMS</p>
+            </div>
+            <div className="vi-one">
+              <small>Certified Range</small>
+              <p>100KMS</p>
+            </div>
           </div>
-
-          <div className="vi-one">
-            <small>Top Speed</small>
-            <p>{props.top} kmph</p>
-          </div>
-
-          <div className="vi-one">
-            <small>0 - 100% Charge</small>
-            <p>{props.charge} HRS</p>
+          <div className="vi-btns">
+          <Link to="/SE03"><button className='btn' onClick={handleClick}>See More</button></Link>
+          <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
           </div>
         </div>
-        <Link to="/SE03MAX"><button className='btn' onClick={handleClick}>See More</button></Link>
-        <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
+        <div className="vi-btns vi-hidden">
+          <Link to="/SE03"><button className='btn' onClick={handleClick}>See More</button></Link>
+          <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
+          </div>
       </div>
     </div>
   );
