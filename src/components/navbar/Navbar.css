@@ -183,7 +183,30 @@
     right: 40px;
   }
   .background-image{
-    background-color: var(--dark-grey);
+    background-image: url('https://img.freepik.com/premium-photo/vertical-black-paper-texture-with-noise-speckles_469558-42443.jpg');
+  }
+  .navbar a:hover:nth-child(2) ~ .background-image{
+    background: url('https://img.freepik.com/premium-photo/vertical-black-paper-texture-with-noise-speckles_469558-42443.jpg') no-repeat;
+  }
+  
+  .navbar a:hover:nth-child(3) ~ .background-image{
+    background: url('https://img.freepik.com/premium-photo/vertical-black-paper-texture-with-noise-speckles_469558-42443.jpg') no-repeat;
+  }
+  
+  .navbar a:hover:nth-child(4) ~ .background-image{
+    background: url('https://img.freepik.com/premium-photo/vertical-black-paper-texture-with-noise-speckles_469558-42443.jpg') no-repeat;
+  }
+  
+  .navbar a:hover:nth-child(5) ~ .background-image{
+    background: url('https://img.freepik.com/premium-photo/vertical-black-paper-texture-with-noise-speckles_469558-42443.jpg') no-repeat;
+  }
+  
+  .navbar a:hover:nth-child(6) ~ .background-image{
+    background: url('https://img.freepik.com/premium-photo/vertical-black-paper-texture-with-noise-speckles_469558-42443.jpg') no-repeat;
+  }
+  
+  .navbar a:hover:nth-child(7) ~ .background-image{
+    background: url('https://img.freepik.com/premium-photo/vertical-black-paper-texture-with-noise-speckles_469558-42443.jpg') no-repeat;
   }
 }
 
