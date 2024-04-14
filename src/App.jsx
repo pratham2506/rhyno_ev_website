@@ -21,6 +21,9 @@ import ResponsiveCard from './components/responsive-cards/ResponsiveCard'
 import './App.css'
 import Form from './components/form/Form'
 import BuyNow from './components/buynow/BuyNow'
+import Vehicle_Img_m from './components/vehicle_img/Vehicle_Img_m'
+import Vehicle_Img2_m from './components/vehicle_img/Vehicle_Img2_m'
+import Vehicle_Img3_m from './components/vehicle_img/Vehicle_Img3_m'
 
 
 function App() {
@@ -33,9 +36,13 @@ function App() {
       {/* <CompareTable/> */}
       {/* <AboutPage/> */}
       {/* <About/> */}
-      <Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/>
-      <Vehicle_Img2 name="SE 03 LITE" kms={100} top={55} charge={4}/>
-      <Vehicle_Img3 name="SE 03 MAX" kms={100} top={55} charge={4}/>
+      <Vehicle_Img name="SE 03" kms={100} top={55} charge={4} className='example'/>
+      <Vehicle_Img2 name="SE 03 LITE" kms={100} top={55} charge={4} className='example'/>
+      <Vehicle_Img3 name="SE 03 MAX" kms={100} top={55} charge={4} className='example'/>
+
+      <Vehicle_Img_m name="SE 03" kms={100} top={55} charge={4} className='responsivediv'/>
+      <Vehicle_Img2_m name="SE 03 LITE" kms={100} top={55} charge={4} className='responsivediv'/>
+      <Vehicle_Img3_m name="SE 03 MAX" kms={100} top={55} charge={4} className='responsivediv'/>
       
       {/* <div className="example"> <Example/></div> */}
       {/* <div className="responsivediv"> <ResponsiveCard/></div> */}
