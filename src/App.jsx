@@ -36,13 +36,13 @@ function App() {
       {/* <CompareTable/> */}
       {/* <AboutPage/> */}
       {/* <About/> */}
-      <Vehicle_Img name="SE 03" kms={100} top={55} charge={4} className='example'/>
-      <Vehicle_Img2 name="SE 03 LITE" kms={100} top={55} charge={4} className='example'/>
-      <Vehicle_Img3 name="SE 03 MAX" kms={100} top={55} charge={4} className='example'/>
+      <div className="example"><Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/></div>
+      <div className="example"><Vehicle_Img2 name="SE 03 LITE" kms={100} top={55} charge={4}/></div>
+      <div className="example"><Vehicle_Img3 name="SE 03 MAX" kms={100} top={55} charge={4}/></div>
 
-      <Vehicle_Img_m name="SE 03" kms={100} top={55} charge={4} className='responsivediv'/>
-      <Vehicle_Img2_m name="SE 03 LITE" kms={100} top={55} charge={4} className='responsivediv'/>
-      <Vehicle_Img3_m name="SE 03 MAX" kms={100} top={55} charge={4} className='responsivediv'/>
+      <div className="responsivediv"><Vehicle_Img_m name="SE 03" kms={100} top={55} charge={4}/></div>
+      <div className="responsivediv"><Vehicle_Img2_m name="SE 03 LITE" kms={100} top={55} charge={4}/></div>
+      <div className="responsivediv"><Vehicle_Img3_m name="SE 03 MAX" kms={100} top={55} charge={4}/></div>
       
       {/* <div className="example"> <Example/></div> */}
       {/* <div className="responsivediv"> <ResponsiveCard/></div> */}
