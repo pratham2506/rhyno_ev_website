@@ -86,4 +86,7 @@
         background-size: contain;
         height: 100%;
     }
+    .vi-maindiv{
+        height: 100%;
+    }
 }
