@@ -18,7 +18,7 @@ import DetailsForm from './routes/DetailsForm.jsx'
 import ScrollToTop from './components/scrolltotop/ScrollToTop.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <BrowserRouter>
     {/* <ScrollToTop/> */}
       <Navbar/>
@@ -32,9 +32,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='/Privacy' element={<Privacyp/>}/>
       <Route path='/Compare' element={<CompareTable/>}/>
       <Route path='/Form' element={<DetailsForm/>}/>
+
     </Routes>
     <Footer/>
     <BackToTop/>
     </BrowserRouter>
-  </React.StrictMode>,
+  // </React.StrictMode>,
 )
