@@ -15,9 +15,9 @@ const Vehicle_Img_m = (props) => {
   //     });
   //   }
   // }, []);
-  //  const handleClick = () => {
-  //   window.scrollTo(0, 0); // Scrolls to the top of the page
-  // };
+   const handleClick = () => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  };
   
   return (
     <div className='vi-bgimg'>
