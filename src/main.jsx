@@ -15,10 +15,12 @@ import BackToTop from './components/backtotop/BackToTop.jsx'
 import Privacyp from './routes/Privacyp.jsx'
 import CompareTable from './components/comparetable/CompareTable.jsx'
 import DetailsForm from './routes/DetailsForm.jsx'
+import ScrollToTop from './components/scrolltotop/ScrollToTop.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
+    {/* <ScrollToTop/> */}
       <Navbar/>
     <Routes>
       <Route path='/' element={<App/>}/>

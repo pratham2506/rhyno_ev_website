@@ -20,6 +20,7 @@ const Vehicle_Img = (props) => {
   };
   
   return (
+    <div id='start'>
     <div className='vi-bgimg'>
       <div className="vi-maindiv" data-aos="flip-right" data-aos-delay="400">
         <h1>{props.name}</h1>
@@ -42,6 +43,7 @@ const Vehicle_Img = (props) => {
         <Link to="/SE03"><button className='btn' onClick={handleClick}>See More</button></Link>
         <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
       </div>
+    </div>
     </div>
   );
 };

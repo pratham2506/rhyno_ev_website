@@ -3,6 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './Vehicle_Img.css';
 import { Link } from 'react-router-dom';
+import ScrollToTop from '../scrolltotop/ScrollToTop';
 
 const Vehicle_Img_m = (props) => {
   // useEffect(() => {
@@ -16,10 +17,11 @@ const Vehicle_Img_m = (props) => {
   //   }
   // }, []);
   //  const handleClick = () => {
-  //   window.scrollTo(0, 0); // Scrolls to the top of the page
+  //   window.scrollTo(document.documentElement.scrollWidth, 0); // Scrolls to the top of the page
   // };
   
   return (
+
     <div className='vi-bgimg'>
       <div className="vi-maindiv">
         <h1>{props.name}</h1>
@@ -43,6 +45,7 @@ const Vehicle_Img_m = (props) => {
         <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
       </div>
     </div>
+  
   );
 };
 
