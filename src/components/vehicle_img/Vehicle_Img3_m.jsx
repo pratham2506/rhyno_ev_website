@@ -15,9 +15,9 @@ const Vehicle_Img3_m = (props) => {
   //     });
   //   }
   // }, []);
-  const handleClick = () => {
-    window.scrollTo(0, 0); // Scrolls to the top of the page
-  };
+  // const handleClick = () => {
+  //   window.scrollTo(0, 0); // Scrolls to the top of the page
+  // };
 
 
   return (
@@ -40,7 +40,7 @@ const Vehicle_Img3_m = (props) => {
             <p>{props.charge} HRS</p>
           </div>
         </div>
-        <Link to="/SE03LITE"><button className='btn' onClick={handleClick}>See More</button></Link>
+        <Link to="/SE03LITE"><button className='btn'>See More</button></Link>
         <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
       </div>
     </div>
