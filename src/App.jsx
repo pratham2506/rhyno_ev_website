@@ -44,8 +44,8 @@ function App() {
       <div className="responsivediv"><Vehicle_Img2_m name="SE 03 LITE" kms={100} top={55} charge={4}/></div>
       <div className="responsivediv"><Vehicle_Img3_m name="SE 03 MAX" kms={100} top={55} charge={4}/></div>
       
-      {/* <div className="example"> <Example/></div> */}
-      {/* <div className="responsivediv"> <ResponsiveCard/></div> */}
+      <div className="example"> <Example/></div>
+      <div className="responsivediv"> <ResponsiveCard/></div>
       {/* <Form/> */}
       <BuyNow/>
       {/* <ColorPicker/> */}
