@@ -48,26 +48,26 @@ const Vehicle_Img = (props) => {
     // </div>
     // </div>
     <div>
-      <div className="vi-maindiv">
+      <div className="vi-maindiv" >
         <div className="vi-textdiv" data-aos="flip-right" data-aos-delay="400">
           <h1>SE03</h1>
           <div className="vi-info">
             <div className="vi-one">
               <small>Certified Range</small>
-              <p>100KMS</p>
+              <p>150 KMS</p>
             </div>
             <div className="vi-one">
-              <small>Certified Range</small>
-              <p>100KMS</p>
+              <small>Top Speed</small>
+              <p>55 kmph</p>
             </div>
             <div className="vi-one">
-              <small>Certified Range</small>
-              <p>100KMS</p>
+              <small>0 - 100% Charge</small>
+              <p>4 HRS</p>
             </div>
           </div>
           <div className="vi-btns">
           <Link to="/SE03"><button className='btn' onClick={handleClick}>See More</button></Link>
-          <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
+          <button className="btn"><a href="https://wa.me/9023987528" target='_blank'> Order Now </a></button>
           </div>
         </div>
         <div className="vi-imgdiv">
@@ -75,7 +75,7 @@ const Vehicle_Img = (props) => {
         </div>
         <div className="vi-btns vi-hidden">
           <Link to="/SE03"><button className='btn' onClick={handleClick}>See More</button></Link>
-          <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
+          <button className="btn"><a href="https://wa.me/9023987528" target='_blank'> Order Now </a></button>
           </div>
       </div>
     </div>

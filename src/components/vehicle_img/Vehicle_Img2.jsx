@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './Vehicle_Img.css';
 import { Link } from 'react-router-dom';
-import IMG1 from '../../assets/Product1.png'
+import IMG1 from '../../assets/Product2.png'
 
 
 const Vehicle_Img2 = (props) => {
@@ -29,29 +29,29 @@ const Vehicle_Img2 = (props) => {
           <img src={IMG1} alt="" className='vi-flip'/>
         </div>
         <div className="vi-textdiv" data-aos="flip-right" data-aos-delay="400">
-          <h1>SE03</h1>
+          <h1>SE03 MAX</h1>
           <div className="vi-info">
             <div className="vi-one">
               <small>Certified Range</small>
-              <p>100KMS</p>
+              <p>120 KMS</p>
             </div>
             <div className="vi-one">
-              <small>Certified Range</small>
-              <p>100KMS</p>
+              <small>Top Speed</small>
+              <p>65 kmph</p>
             </div>
             <div className="vi-one">
-              <small>Certified Range</small>
-              <p>100KMS</p>
+              <small>0 - 100% Charge</small>
+              <p>4 HRS</p>
             </div>
           </div>
           <div className="vi-btns">
-          <Link to="/SE03"><button className='btn' onClick={handleClick}>See More</button></Link>
-          <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
+          <Link to="/SE03MAX"><button className='btn' onClick={handleClick}>See More</button></Link>
+          <button className="btn"><a href="https://wa.me/9023987528" target='_blank'> Order Now </a></button>
           </div>
         </div>
         <div className="vi-btns vi-hidden">
-          <Link to="/SE03"><button className='btn' onClick={handleClick}>See More</button></Link>
-          <button className="btn"><a href="https://wa.me/9152858942" target='_blank'> Order Now </a></button>
+          <Link to="/SE03MAX"><button className='btn' onClick={handleClick}>See More</button></Link>
+          <button className="btn"><a href="https://wa.me/9023987528" target='_blank'> Order Now </a></button>
           </div>
       </div>
     </div>
