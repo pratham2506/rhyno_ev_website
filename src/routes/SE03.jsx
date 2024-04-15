@@ -5,11 +5,12 @@ import Spec2 from '../components/vechicle_spec/Spec2'
 import About from '../components/about/About'
 import ColorPicker from '../components/colorpicker/ColorPicker'
 import ScrollToTop from '../components/scrolltotop/ScrollToTop'
+import BuyNow from '../components/buynow/BuyNow'
 
 const SE03 = () => {
   return (
     <div className='topstart'>
-      <Vehicle_Img name="SE 03" kms={100} top={55} charge={4}/>
+      <Vehicle_Img/>
       <div className="example"><Spec/></div>
       <div className="responsivediv"><Spec2/></div>
       <div className="ap-maindiv vehicleinfo">
@@ -22,6 +23,7 @@ const SE03 = () => {
       </div>
       
       <ColorPicker/>
+      <BuyNow/>
     </div>
   )
 }

@@ -1,16 +1,26 @@
 import React from 'react'
-import Vehicle_Img from '../components/vehicle_img/Vehicle_Img'
+import Vehicle_Img2 from '../components/vehicle_img/Vehicle_Img2'
 import Spec from '../components/vechicle_spec/Spec'
 import ColorPicker from '../components/colorpicker/ColorPicker'
 import Spec2 from '../components/vechicle_spec/Spec2'
+import BuyNow from '../components/buynow/BuyNow'
 
 const SE03Max = () => {
   return (
     <div>
-      <Vehicle_Img name="SE 03 Max" kms={100} top={55} charge={4}/>
+      <Vehicle_Img2/>
       <div className="example"><Spec/></div>
       <div className="responsivediv"><Spec2/></div>
+      <div className="ap-maindiv vehicleinfo">
+        <div className="ap-textdiv">
+          {/* <h1>About Us</h1> */}
+          <p>
+          This Rhyno is tuned for long drives and no thrills. Like all other variants, this machine comes with a fire-safe advanced LFP battery and all the other benefits of owning a Rhyno, along with a perfect blend of battery capacity and motor power to provide up to 150 km range on a single charge. While it may not provide a thrilling ride, it promises a dependable and unwavering presence on the long stretches.
+ </p>
+        </div>
+      </div>
       <ColorPicker/>
+      <BuyNow/>
     </div>
   )
 }
