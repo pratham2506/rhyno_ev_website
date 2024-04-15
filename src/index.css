@@ -74,9 +74,15 @@
   color: var(--black);
 }
 
+.vehicleinfo{
+  height: 100%;
+  margin: 4rem 0;
+}
+
 @media (max-width:732px) {
   .btn22{
     left: 60%;
   }
 }
+
 

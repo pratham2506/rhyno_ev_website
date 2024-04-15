@@ -34,7 +34,7 @@ const HorizontalScrollCarousel = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const x = useTransform(scrollYProgress, [0, 1], ["180%", "-130%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["200%", "-130%"]);
 
   // Swipeable handlers
   const handlers = useSwipeable({

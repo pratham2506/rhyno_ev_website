@@ -21,10 +21,11 @@
 
 .hs-four{
     position: relative;
-    height: 600px;
-    width: 600px;
+    height: 40rem;
+    width: 60rem;
     overflow: hidden;
     background-color: var(--light-grey);
+    text-align: justify;
 }
 
 .hs-five{
