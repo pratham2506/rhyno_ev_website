@@ -1,5 +1,7 @@
 .Drone_head {
-    background: url('https://149355317.v2.pressablecdn.com/wp-content/uploads/2017/02/Mapping-and-Modeling-Drone-Training-1920x1080.jpg') no-repeat;
+    background: url('../../assets/1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     display: flex;
     align-items: center;
