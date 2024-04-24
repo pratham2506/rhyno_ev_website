@@ -49,7 +49,7 @@ const HorizontalScrollCarousel = () => {
 
   return (
     <section ref={targetRef} className="hs-one" {...(isMobile && handlers)}>
-      <div className="hs-two">
+      <div className="hs-two" >
         <motion.div style={{ x }} className="hs-three">
           {cards.map((card) => {
             return <Card card={card} key={card.id} isMobile={isMobile} />;
@@ -85,7 +85,6 @@ const Card = ({ card, isMobile }) => {
           {card.description}
         </p>
       </div>
-      <SlowScroll/>
     </div>
   );
 };

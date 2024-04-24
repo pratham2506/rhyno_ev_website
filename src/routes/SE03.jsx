@@ -6,13 +6,12 @@ import About from '../components/about/About'
 import ColorPicker from '../components/colorpicker/ColorPicker'
 import ScrollToTop from '../components/scrolltotop/ScrollToTop'
 import BuyNow from '../components/buynow/BuyNow'
+import Vehicle_ImgN from '../components/vehicle_img/Vehicle_ImgN'
 
 const SE03 = () => {
   return (
     <div className='topstart'>
-      <Vehicle_Img/>
-      <div className="example"><Spec/></div>
-      <div className="responsivediv"><Spec2/></div>
+      <Vehicle_ImgN/>
       <div className="ap-maindiv vehicleinfo">
         <div className="ap-textdiv">
           {/* <h1>About Us</h1> */}
@@ -21,6 +20,9 @@ const SE03 = () => {
  </p>
         </div>
       </div>
+      <div className="example"><Spec/></div>
+      <div className="responsivediv"><Spec2/></div>
+      
       
       <ColorPicker/>
       <BuyNow/>

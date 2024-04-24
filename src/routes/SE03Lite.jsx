@@ -4,11 +4,12 @@ import Spec from '../components/vechicle_spec/Spec'
 import ColorPicker from '../components/colorpicker/ColorPicker'
 import Spec2 from '../components/vechicle_spec/Spec2'
 import BuyNow from '../components/buynow/BuyNow'
+import Vehicle_Img3N from '../components/vehicle_img/Vehicle_Img3N'
 
 const SE03Lite = () => {
   return (
     <div>
-      <Vehicle_Img3/>
+      <Vehicle_Img3N/>
       <div className="example"><Spec/></div>
       <div className="responsivediv"><Spec2/></div>
       <div className="ap-maindiv vehicleinfo">
