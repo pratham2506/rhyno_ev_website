@@ -46,7 +46,7 @@
 
 @media (max-width:500px) {
     .Drone_head{
-        padding: 1.2rem;
+        padding: 1.2rem 1.2rem 5rem 1.2rem;
     }
     .Drone_head .content h1 .rotate{
         top: 38px;
