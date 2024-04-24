@@ -30,6 +30,7 @@ const ResponsiveCard = () => {
     {/* </div> */}
         <div className="di-covered">
             {/* <h1>What is Covered?</h1> */}
+            <h1 className="hs-h1h1">What Makes <span className='yellow'>Rhyno</span> Awesome</h1>
             <div className="di-coveredin">
                 <div className="di-partone">
                     <img src={IMG1} alt="" />
