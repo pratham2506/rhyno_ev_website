@@ -28,7 +28,7 @@ const Vehicle_Img2_m = (props) => {
           <h1>SE03 MAX</h1>
           <div className="vi-info">
             <div className="vi-one">
-              <small>Certified Range</small>
+              <small>Range</small>
               <p>120 KMS</p>
             </div>
             <div className="vi-one">
@@ -36,7 +36,7 @@ const Vehicle_Img2_m = (props) => {
               <p>65 kmph</p>
             </div>
             <div className="vi-one">
-            <small>0 - 100% Charge</small>
+            <small>Charging Time</small>
               <p>4 HRS</p>
             </div>
           </div>

@@ -29,7 +29,7 @@ const Vehicle_Img3N = (props) => {
           <h1>SE03 LITE</h1>
           <div className="vi-info">
             <div className="vi-one">
-            <small>Certified Range</small>
+            <small>Range</small>
               <p>100 KMS</p>
             </div>
             <div className="vi-one">
@@ -37,7 +37,7 @@ const Vehicle_Img3N = (props) => {
               <p>55 kmph</p>
             </div>
             <div className="vi-one">
-            <small>0 - 100% Charge</small>
+            <small>Charging Time</small>
               <p>3 HRS</p>
             </div>
           </div>
