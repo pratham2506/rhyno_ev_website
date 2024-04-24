@@ -49,7 +49,8 @@
         padding: 1.2rem 1.2rem 8rem 1.2rem;
     }
     .Drone_head .content h1 .rotate{
-        top: 78px;
+        top: 75px;
+        left: 90;
     }
     .aligncenter{
         text-align: left;
