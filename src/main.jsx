@@ -16,6 +16,7 @@ import Privacyp from './routes/Privacyp.jsx'
 import CompareTable from './components/comparetable/CompareTable.jsx'
 import DetailsForm from './routes/DetailsForm.jsx'
 import ScrollToTop from './components/scrolltotop/ScrollToTop.jsx'
+import Rentalpage from './routes/Rentalpage.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
@@ -32,6 +33,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='/Privacy' element={<Privacyp/>}/>
       <Route path='/Compare' element={<CompareTable/>}/>
       <Route path='/Form' element={<DetailsForm/>}/>
+      <Route path='/Rentals' element={<Rentalpage/>}/>
 
     </Routes>
     <Footer/>

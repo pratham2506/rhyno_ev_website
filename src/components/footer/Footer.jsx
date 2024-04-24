@@ -32,10 +32,10 @@ const Footer = () => {
 
           <small>Quick Links</small>
           <div className="ft-quick">
-            <Link to='/Privacy' onClick={handleClick}><li>Privacy</li></Link>
+            <Link to='/Privacy' onClick={handleClick}><li>Privacy Policy</li></Link>
             <Link to='/Contact' onClick={handleClick}><li>Contact Us</li></Link>
             <li>Careers</li>
-            <Link to='/' onClick={handleClick}><li>Rentals</li></Link>
+            <Link to='/Rentals' onClick={handleClick}><li>Rentals</li></Link>
           </div>
           <p>Copyright &copy; 2024 Rhyno Wheels Private Limited. All Rights Reserved.</p>
         </div>

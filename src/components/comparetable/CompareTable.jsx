@@ -8,19 +8,17 @@ const CompareTable = () => {
       <div class="compare p-70">
   <div class="container">
     <div class="section-head text-center">
-      <h2 class="mb-3 mx-auto">Let us show you a complete comparison of all our plans</h2>
-      <p class="mb-0">Our virtual private servers are built from the ground using all SSD storage. Enjoy increased power,
-        flexibility, and control for your websites.</p>
+      <h2 class="mb-3 mx-auto">Let us show you a complete comparison of all our rides</h2>
+      
     </div>
     <div class="c-table">
       <table class="w-100 h-table">
         <thead>
           <tr>
             <th></th>
-            <td><img src={IMG1} alt="" />Shared</td>
-            <td><img src={IMG1} alt="" />VPS</td>
-            <td><img src={IMG1} alt="" />Dedicated</td>
-            <td><img src={IMG1} alt="" />Cloud</td>
+            <td><img src={IMG1} alt="" />SE03</td>
+            <td><img src={IMG1} alt="" />SE03 Max</td>
+            <td><img src={IMG1} alt="" />SE03 LITE</td>
           </tr>
         </thead>
       </table>
@@ -31,93 +29,95 @@ const CompareTable = () => {
             <td class="p-0"></td>
             <td class="p-0"></td>
             <td class="p-0"></td>
-            <td class="p-0"></td>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th>Free domain with annual plan</th>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
+            <th>Battery</th>
+            <td>2.7Kwh</td>
+            <td>2.7Kwh</td>
+            <td>1.8Kwh</td>
           </tr>
           <tr>
-            <th>Websites</th>
-            <td>1</td>
-            <td>Unlimited</td>
-            <td>Unlimited</td>
-            <td>Unlimited</td>
+            <th>Battery features</th>
+            <td>LFP with 1500 cycles,
+Active Balancing,
+Waterproof (IP67)
+</td>
+<td>LFP with 1500 cycles,
+Active Balancing,
+Waterproof (IP67)
+</td>
+<td>LFP with 1500 cycles,
+Active Balancing,
+Waterproof (IP67)
+</td>
           </tr>
           <tr>
-            <th>Disk space</th>
-            <td>100 GB</td>
-            <td>Unlimited</td>
-            <td>Unlimited</td>
-            <td>Unlimited</td>
+            <th>Battery warranty</th>
+            <td>3 years</td>
+            <td>3 years</td>
+            <td>3 years</td>
           </tr>
           <tr>
-            <th>Monthly bandwidth</th>
-            <td>Unlimited</td>
-            <td>Unlimited</td>
-            <td>Unlimited</td>
-            <td>Unlimited</td>
+            <th>Charging time</th>
+            <td>4 hours (12A)</td>
+            <td>4 hours (12A)</td>
+            <td>3 hours (12A)</td>
           </tr>
           <tr>
-            <th>Input/output (I/O)</th>
-            <td>1024</td>
-            <td>2048</td>
-            <td>2048</td>
-            <td>2048</td>
+            <th>Motor</th>
+            <td>1500W</td>
+            <td>2000W</td>
+            <td>1500W</td>
           </tr>
           <tr>
-            <th>FTP users</th>
-            <td>60</td>
-            <td>60</td>
-            <td>60</td>
-            <td>Unlimited</td>
+            <th>Max speed</th>
+            <td>55 km/h</td>
+            <td>65 km/h</td>
+            <td>55 km/h</td>
           </tr>
           <tr>
-            <th>MySQL databases</th>
-            <td>10 x 1 GB</td>
-            <td>25 x 1 GB</td>
-            <td>50 x 3 GB</td>
-            <td>Unlimited<br/> x 2 GB</td>
+            <th>Warranty on electronics</th>
+            <td>1 year</td>
+            <td>1 year</td>
+            <td>1 year</td>
           </tr>
           <tr>
-            <th>Database backup/restore</th>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
+            <th>Max range (@30km/h)</th>
+            <td>150 km</td>
+            <td>120 km</td>
+            <td>100 km</td>
           </tr>
           <tr>
-            <th>Direct database access</th>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
+            <th>Max range (@45km/h)</th>
+            <td>110 km</td>
+            <td>100 km</td>
+            <td>90 km</td>
           </tr>
           <tr>
-            <th>DNS management</th>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td>Unlimited</td>
+            <th>Max range (@full speed)</th>
+            <td>90 km</td>
+            <td>80 km</td>
+            <td>60 km</td>
           </tr>
           <tr>
-            <th>Auto-responder</th>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-          </tr>
-          <tr>
-            <th>Total email storage</th>
-            <td>5 GB</td>
-            <td>5 GB</td>
-            <td>5 GB</td>
-            <td>Unlimited</td>
+            <th>Other key benefits</th>
+            <td>Fire-safe Battery,
+Range prediction,
+Comfortable ride,
+Stable and safe
+</td>
+            <td>Fire-safe Battery,
+Range prediction,
+Comfortable ride,
+Stable and safe
+</td>
+            <td>Fire-safe Battery,
+Range prediction,
+Comfortable ride,
+Stable and safe
+</td>
           </tr>
         </tbody>
       </table>

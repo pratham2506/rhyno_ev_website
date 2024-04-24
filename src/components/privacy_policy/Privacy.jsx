@@ -6,7 +6,7 @@ const Privacy = () => {
     <div className='priv-overall'>
       <div className="priv-maindiv">
         <h1>Privacy Policy</h1>
-        <p>Last updated on January 1, 2024</p>
+        {/* <p>Last updated on January 1, 2024</p> */}
       </div>
 
       <div className="priv-about">

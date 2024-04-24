@@ -7,6 +7,7 @@ import IMG2 from '../../assets/best-customer-experience.png'
 import IMG3 from '../../assets/bar-chart.png'
 import IMG4 from '../../assets/solution.png'
 import IMG5 from '../../assets/tyre.png'
+import SlowScroll from "./SlowScroll";
 
 
 const Example = () => {
@@ -84,6 +85,7 @@ const Card = ({ card, isMobile }) => {
           {card.description}
         </p>
       </div>
+      <SlowScroll/>
     </div>
   );
 };

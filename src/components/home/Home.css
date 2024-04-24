@@ -1,12 +1,13 @@
 .Drone_head {
-    background: url('../../assets/1.png') no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url('../../assets/11.png') no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: var(--black);
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5rem;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 5rem;
     height: 100vh;
     perspective: 1000px; /* Add perspective for 3D effect */
 }
@@ -19,7 +20,7 @@
     font-size: var(--heading);
     color: #fff;
     text-transform: uppercase;
-    position: relative; /* Required for 3D transformations */
+    position: relative; 
 }
 
 .Drone_head .content h1 .rotate {
@@ -32,7 +33,7 @@
 }
 
 .aligncenter{
-    text-align: center;
+    text-align: left;
 }
 
 .alignleft{
