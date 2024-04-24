@@ -1,7 +1,6 @@
 .hs-one{
     position: relative;
     height: 300vh;
-    
 }
 
 .hs-two{
@@ -17,7 +16,7 @@
 .hs-three{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 5rem;
 }
 
 .hs-four{
@@ -55,4 +54,10 @@
 .r-title{
     font-size: var(--medium);
     color: var(--white);
+}
+
+.hs-h1h1{
+    text-align: center;
+    font-size: var(--heading);
+    padding: 1.2rem;
 }

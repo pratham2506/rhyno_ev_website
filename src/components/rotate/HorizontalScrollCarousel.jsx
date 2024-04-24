@@ -48,6 +48,8 @@ const HorizontalScrollCarousel = () => {
   });
 
   return (
+    <div>
+      <h1 className="hs-h1h1">What Makes <span className='yellow'>Rhyno</span> Awesome</h1>
     <section ref={targetRef} className="hs-one" {...(isMobile && handlers)}>
       <div className="hs-two" >
         <motion.div style={{ x }} className="hs-three">
@@ -56,7 +58,9 @@ const HorizontalScrollCarousel = () => {
           })}
         </motion.div>
       </div>
+      
     </section>
+    </div>
   );
 };
 
