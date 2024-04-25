@@ -59,7 +59,7 @@
 
 .ct-linksdiv small{
     font-size: var(--para);
-    color: var(--dark-grey);
+    color: var(--white);
 }
 
 .ct-social{
@@ -70,7 +70,7 @@
 
 .ct-social a{
     text-decoration: none;
-    color: var(--dark-grey);
+    color: var(--white);
     font-size: var(--medium);
     margin-top: 3rem;
     margin-bottom: 5px;

@@ -18,7 +18,7 @@
     color: var(--devil);
     border: 1px solid var(--devil);
     font-size: var(--small);
-    background: #ffffff;
+    background: var(--yellow);
 
 }
 
