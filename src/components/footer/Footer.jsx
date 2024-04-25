@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div className="ft-add">
               <small>Visit us</small>
-              <p>Rhyno Wheels Private limited, Near UG hostel gate #2, Behind PDEU, Raisan, Gandhinagar, Gujarat, India.</p>
+              <p>RHYNO Wheels Private limited, Near UG hostel gate #2, Behind PDEU, Raisan, Gandhinagar, Gujarat, India.</p>
             </div>
             <div className="ft-lets">
               <small>Lets connect</small>
@@ -37,7 +37,7 @@ const Footer = () => {
             <li>Careers</li>
             <Link to='/Rentals' onClick={handleClick}><li>Rentals</li></Link>
           </div>
-          <p>Copyright &copy; 2024 Rhyno Wheels Private Limited. All Rights Reserved.</p>
+          <p>Copyright &copy; 2024 RHYNO Wheels Private Limited. All Rights Reserved.</p>
         </div>
       </div>
     </div>

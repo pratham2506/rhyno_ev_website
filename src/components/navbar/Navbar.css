@@ -10,18 +10,18 @@
 
 .logo{
   position: relative;
-  top:10px; 
+  top:15px; 
   left:50px;
   cursor: pointer;
   z-index: 1010;
-  width: 150px;
+  width: 200px;
 }
 
 #nav-toggler{
   -webkit-appearance: none;
   overflow-y: hidden;
   position: absolute;
-  top:30px; 
+  top:35px; 
   right: 70px;
   cursor: pointer;
   z-index: 1010;

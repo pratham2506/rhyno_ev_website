@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="c-textdiv">
           <h1>Contact US</h1>
           <p>
-          Established in 2019 by an automotive engineer with a vision for sustainable and robust mobility solutions, Rhyno EV is not just a company; it's a collective effort of a dynamic team of young individuals passionately driving innovation in the electric vehicle industry. We believe in engineering solutions that solve problems.
+          Established in 2019 by an automotive engineer with a vision for sustainable and robust mobility solutions, RHYNO EV is not just a company; it's a collective effort of a dynamic team of young individuals passionately driving innovation in the electric vehicle industry. We believe in engineering solutions that solve problems.
           </p>
         </div>
       </div>
@@ -30,7 +30,7 @@ const Contact = () => {
               <small> info@rhyno.in</small>
 
               <p>Address :</p>
-              <small>Rhyno Wheels Private limited, Near UG hostel gate #2, Behind PDEU, Raisan, Gandhinagar, Gujarat, India.</small>
+              <small>RHYNO Wheels Private limited, Near UG hostel gate #2, Behind PDEU, Raisan, Gandhinagar, Gujarat, India.</small>
             </div>
           </div>
         </div>

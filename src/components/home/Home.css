@@ -1,7 +1,7 @@
 .Drone_head {
     background: url('../../assets/11.png') no-repeat;
     background-position: right;
-    background-size: contain;
+    background-size: 1350px 1000px;
     background-color: var(--black);
     width: 100%;
     display: flex;
