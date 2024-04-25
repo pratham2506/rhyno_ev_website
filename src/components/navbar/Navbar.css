@@ -88,45 +88,58 @@
   top:0; left:0;
   height: 100%;
   width: 100%;
-  background: url(../../assets/5.png) no-repeat;
-  background-size: cover;
+  background: url(../../assets/11.png) no-repeat;
+  background-size: contain;
   background-position: center;
+  background-color: var(--black);
+
   z-index: -1;
 }
 
 .navbar a:hover:nth-child(2) ~ .background-image{
-  background: url(../../assets/1.png) no-repeat;
-  background-size: cover;
+  background: url(../../assets/product7.png) no-repeat;
+  background-size: contain;
   background-position: center;
+  background-color: var(--black);
+
 }
 
 .navbar a:hover:nth-child(3) ~ .background-image{
-  background: url(../../assets/3.png) no-repeat;
-  background-size: cover;
+  background: url(../../assets/product5.png) no-repeat;
+  background-size: contain;
   background-position: center;
+  background-color: var(--black);
+
 }
 
 .navbar a:hover:nth-child(4) ~ .background-image{
-  background: url(../../assets/4.png) no-repeat;
-  background-size: cover;
+  background: url(../../assets/product6.png) no-repeat;
+  background-size: contain;
+  background-color: var(--black);
+
   background-position: center;
 }
 
 .navbar a:hover:nth-child(5) ~ .background-image{
-  background: url(../../assets/3.png) no-repeat;
-  background-size: cover;
+  background: url(../../assets/Product1.png) no-repeat;
+  background-size: contain;
   background-position: center;
+  background-color: var(--black);
+
 }
 
 .navbar a:hover:nth-child(6) ~ .background-image{
-  background: url(../../assets/2.png) no-repeat;
-  background-size: cover;
+  background: url(../../assets/Product2.png) no-repeat;
+  background-size: contain;
   background-position: center;
+  background-color: var(--black);
+
 }
 
 .navbar a:hover:nth-child(7) ~ .background-image{
-  background: url(../../assets/4.png) no-repeat;
-  background-size: cover;
+  background: url(../../assets/product3.png) no-repeat;
+  background-color: var(--black);
+  background-size: contain;
   background-position: center;
 }
 

@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import './ColorPicker.css';
-import IMG1 from '../../assets/1.png';
-import IMG2 from '../../assets/2.png';
-import IMG3 from '../../assets/3.png';
-import IMG4 from '../../assets/4.png';
-import IMG5 from '../../assets/5.png';
-import IMG6 from '../../assets/6.png';
+import IMG1 from '../../assets/product7.png';
+import IMG2 from '../../assets/product5.png';
+import IMG3 from '../../assets/product6.png';
+import IMG4 from '../../assets/product4.png';
+
 
 const ColorPicker = () => {
-  const imageList = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG6];
+  const imageList = [IMG1, IMG2, IMG3, IMG4];
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   const changeImage = (index) => {

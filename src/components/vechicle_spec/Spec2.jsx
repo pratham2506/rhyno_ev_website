@@ -49,7 +49,7 @@ const Spec2 = (props) => {
         </div>
 
         <div className="spec-centerimg">
-            <img src={IMG1} alt="" />
+            <img src={props.imges} alt="" />
         </div>
 
         <div className="spec-info2" >

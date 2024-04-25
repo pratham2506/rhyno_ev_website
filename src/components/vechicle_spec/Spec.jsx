@@ -49,7 +49,7 @@ const Spec = (props) => {
         </div>
 
         <div className="spec-centerimg" data-aos="flip-left" data-aos-delay="400">
-            <img src={IMG1} alt="" />
+            <img src={props.imges} alt="" />
         </div>
 
         <div className="spec-info2" data-aos="flip-right" data-aos-delay="400">

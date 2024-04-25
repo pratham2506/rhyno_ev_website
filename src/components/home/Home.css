@@ -1,7 +1,7 @@
 .Drone_head {
     background: url('../../assets/11.png') no-repeat;
-    background-position: bottom right;
-    background-size: 1350px 900px;
+    background-position: right;
+    background-size: 1250px 800px;
     background-color: var(--black);
     width: 100%;
     display: flex;
@@ -48,6 +48,7 @@
     .Drone_head{
         padding: 1.2rem 1.2rem 8rem 1.2rem;
         background-position: center;
+        background: url("../../assets/product8.png") no-repeat;
         background-size: cover;
     }
     .Drone_head .content h1{

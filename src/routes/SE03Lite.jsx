@@ -5,6 +5,8 @@ import ColorPicker from '../components/colorpicker/ColorPicker'
 import Spec2 from '../components/vechicle_spec/Spec2'
 import BuyNow from '../components/buynow/BuyNow'
 import Vehicle_Img3N from '../components/vehicle_img/Vehicle_Img3N'
+import IMG1 from '../assets/blf.png'
+
 
 const SE03Lite = () => {
   return (
@@ -19,8 +21,8 @@ ed for medium-power, single-person usage. This machine maintains the Rhyno stand
  </p>
         </div>
       </div>
-      <div className="example"><Spec w="1500W" tops="55" range="100" battery="1.8"/></div>
-      <div className="responsivediv"><Spec2 w="1500W" tops="55" range="100" battery="1.8"/></div>
+      <div className="example"><Spec w="1500W" tops="55" range="100" battery="1.8" imges={IMG1}/></div>
+      <div className="responsivediv"><Spec2 w="1500W" tops="55" range="100" battery="1.8" imges={IMG1}/></div>
       
       <ColorPicker/>
       <BuyNow/>

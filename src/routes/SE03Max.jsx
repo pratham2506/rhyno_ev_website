@@ -5,11 +5,14 @@ import ColorPicker from '../components/colorpicker/ColorPicker'
 import Spec2 from '../components/vechicle_spec/Spec2'
 import BuyNow from '../components/buynow/BuyNow'
 import Vehicle_Img2N from '../components/vehicle_img/Vehicle_Img2N'
+import IMG1 from '../assets/bf.png'
+import Vehicle_Img2Nm from '../components/vehicle_img/Vehicle_Img2Nm'
+
 
 const SE03Max = () => {
   return (
     <div>
-      <Vehicle_Img2N/>
+      <Vehicle_Img2Nm/>
       <div className="ap-maindiv vehicleinfo">
         <div className="ap-textdiv">
           {/* <h1>About Us</h1> */}
@@ -18,8 +21,8 @@ const SE03Max = () => {
  </p>
         </div>
       </div>
-      <div className="example"><Spec w="2000W" tops="65" range="120" battery="2.7"/></div>
-      <div className="responsivediv"><Spec2 w="2000W" tops="65" range="120" battery="2.7"/></div>
+      <div className="example"><Spec w="2000W" tops="65" range="120" battery="2.7" imges={IMG1}/></div>
+      <div className="responsivediv"><Spec2 w="2000W" tops="65" range="120" battery="2.7" imges={IMG1}/></div>
       
       <ColorPicker/>
       <BuyNow/>
