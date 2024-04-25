@@ -68,13 +68,17 @@
 
 .vi-flip{
   transform: scaleX(-1);
-  margin-right: 9rem;
+  margin-right: 10rem;
 }
 
 .vi-bg{
   background-color: var(--light-grey);
   color: var(--black);
-  padding: 5rem 0 0 10rem;
+  padding: 5rem 0 0 7rem;
+}
+
+.paddd{
+  padding: 0 0 0 2rem;
 }
 
 @media (max-width: 1325px) {

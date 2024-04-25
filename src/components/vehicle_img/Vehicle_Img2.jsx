@@ -29,7 +29,7 @@ const Vehicle_Img2 = (props) => {
           <img src={IMG1} alt="" className='vi-flip'/>
         </div>
         
-        <div className="vi-textdiv" data-aos="flip-right" data-aos-delay="400">
+        <div className="vi-textdiv paddd" data-aos="flip-right" data-aos-delay="400">
           <h1>SE03 MAX</h1>
           <div className="vi-info">
             <div className="vi-one">
