@@ -49,7 +49,7 @@
   position: fixed;
   top:0; 
   left:-110%;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   z-index: 1000;
   display: flex;
@@ -179,6 +179,7 @@
   .logo {
     left: 30px;
     width: 150px;
+    top: 10px;
   }
   .navbar {
     height: 100vh;
@@ -195,7 +196,7 @@
 @media (max-width:480px){
   #nav-toggler{
     right: 40px;
-    top: 30px;
+    top: 25px;
   }
   .background-image{
     background-image: url('https://img.freepik.com/premium-photo/vertical-black-paper-texture-with-noise-speckles_469558-42443.jpg');
