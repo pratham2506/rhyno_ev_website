@@ -83,3 +83,48 @@
   .compare .c-table tbody tr td:last-child {
     border-right: 1px solid var(--light-grey);
   }
+
+  /* For tablets */
+@media only screen and (max-width: 768px) {
+  .section-head h2 {
+    font-size: 24px; /* Adjust font size for section heading */
+  }
+  .compare .c-table thead tr th,
+  .compare .c-table thead tr td {
+    font-size: 14px; /* Adjust font size for table header and data cells */
+  }
+  .compare .c-table th,
+  .compare .c-table td {
+    padding: 15px; /* Adjust padding for table cells */
+  }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 566px) {
+  .section-head h2 {
+    font-size: 20px; /* Further reduce font size for smaller screens */
+  }
+  .compare .c-table thead tr th,
+  .compare .c-table thead tr td {
+    font-size: 12px; /* Further reduce font size for smaller screens */
+  }
+  .compare .c-table th,
+  .compare .c-table td {
+    padding: 10px; /* Further reduce padding for smaller screens */
+  }
+}
+
+/* For smaller mobile devices */
+@media only screen and (max-width: 360px) {
+  .section-head h2 {
+    font-size: 18px; /* Further reduce font size for smallest screens */
+  }
+  .compare .c-table thead tr th,
+  .compare .c-table thead tr td {
+    font-size: 10px; /* Further reduce font size for smallest screens */
+  }
+  .compare .c-table th,
+  .compare .c-table td {
+    padding: 8px; /* Further reduce padding for smallest screens */
+  }
+}

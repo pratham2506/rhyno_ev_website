@@ -30,37 +30,37 @@ const ResponsiveCard = () => {
     {/* </div> */}
         <div className="di-covered">
             {/* <h1>What is Covered?</h1> */}
-            <h1 className="hs-h1h1">What Makes <span className='yellow'>Rhyno</span> Awesome</h1>
+            <h1 className="hs-h1h1">What Makes <span className='yellow'>RHYNO</span> Awesome</h1>
             <div className="di-coveredin">
                 <div className="di-partone">
                     <img src={IMG1} alt="" />
                     <h3>LFP Battery</h3>
-                    <p>Equipped with advanced Lithium Iron Phosphate (LFP) batteries, renowned for their safety features—eliminating the risk of fire. These batteries boast a broader temperature range, ideal for the diverse Indian climate. Our technology enhances Rhyno's longevity, complemented by an Active Balancing Smart Battery Management System (BMS) for extended life and reduced maintenance.</p>
+                    <p>Equipped with advanced Lithium Iron Phosphate (LFP) batteries, renowned for their safety features—eliminating the risk of fire. These batteries boast a broader temperature range, ideal for the diverse Indian climate. Our technology enhances RHYNO's longevity, complemented by an Active Balancing Smart Battery Management System (BMS) for extended life and reduced maintenance.</p>
                 </div>
 
                 <div className="di-partone">
                     <img src={IMG5} alt="" />
                     <h3>Wider tyres</h3>
-                    <p>Now, say goodbye to skidding and embrace the leaning turns! Featuring first-of-its-kind, 9.5-inch wider tyres that make this machine an enormous beast that ensures stability on different terrains such as wet roads, mud, and sand.</p>
+                    <p>Now, say goodbye to skidding and embrace the leaning turns! Featuring first-of-its-kind, 9.5-inch wider tyres that make this machine an enormous beast that ensures stability on different terrains such as wet roads, mud, and sand roads.</p>
                 </div>
 
                 <div className="di-partone">
                     <img src={IMG3} alt="" />
                     <h3>Range prediction</h3>
-                    <p>Many budget-friendly electric scooters overlook this crucial feature, causing riders to experience range anxiety. With Rhyno, you can ride with peace of mind, thanks to the scooter providing precise information about the remaining battery.</p>
+                    <p>Many budget-friendly electric scooters overlook this crucial feature, causing riders to experience range anxiety. With RHYNO, you can ride with peace of mind, which provides precise information about the remaining battery.</p>
                 </div>
 
                 <div className="di-partone">
                     <img src={IMG2} alt="" />
                     <h3>Extraordinary Experience</h3>
-                    <p>Rhyno is more than just a mode of transportation. It is an experience of sheer comfort and style! A seamless fusion of minimalism, sophistication, and a touch of masculinity! This experience is enhanced further with lower CG, which makes your Rhyno ultra-lightweight as if you are riding on a feather!!</p>
+                    <p>RHYNO is more than just a mode of transportation. It's an experience of sheer comfort and style! A seamless fusion of minimalism, sophistication and a touch of masculinity! This experience is enhanced further with lower CG, which makes your RHYNO ultra-lightweight as if you are riding on a feather!</p>
                 </div>
 
 
                 <div className="di-partone">
                     <img src={IMG4} alt="" />
                     <h3>Rugged and simple Design</h3>
-                    <p>We’ve had enough of the EVs looking and feeling like fragile plastic toys. Often fading out and shamelessly breaking in minor accidents, spending weeks and months at service stations for complex repairs. We took the bold step of making something raw, rugged, and practical. We kept it so simple that even your trusted local mechanic can understand and repair most of it. If you have reached this far, why not to take a test ride? Click here to locate your nearest dealership or book a test ride at your home!</p>
+                    <p>We’ve had enough of the EVs looking and feeling like fragile plastic toys. Often fading out and shamelessly breaking in minor accidents, spending weeks and months at service stations for complex repairs. We took the bold step of making something raw, rugged, and practical. We kept it so simple that even your trusted local mechanic can understand and repair most of it. If you have reached this far, why not take a test ride? Click here to locate your nearest dealership or book a test ride at your home!</p>
                 </div>
             </div>
         </div>
