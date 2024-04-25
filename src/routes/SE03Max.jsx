@@ -10,16 +10,17 @@ const SE03Max = () => {
   return (
     <div>
       <Vehicle_Img2N/>
-      <div className="example"><Spec/></div>
-      <div className="responsivediv"><Spec2/></div>
       <div className="ap-maindiv vehicleinfo">
         <div className="ap-textdiv">
           {/* <h1>About Us</h1> */}
           <p>
-          This Rhyno is tuned for long drives and no thrills. Like all other variants, this machine comes with a fire-safe advanced LFP battery and all the other benefits of owning a Rhyno, along with a perfect blend of battery capacity and motor power to provide up to 150 km range on a single charge. While it may not provide a thrilling ride, it promises a dependable and unwavering presence on the long stretches.
+          This Rhyno is tuned for long drives and no thrills. Like all other variants, this machine comes with a fire-safe advanced LFP battery and all the other benefits of owning a Rhyno, along with a perfect blend of battery capacity and motor power to provide up to 120 km range on a single charge. While it may not provide a thrilling ride, it promises a dependable and unwavering presence on the long stretches.
  </p>
         </div>
       </div>
+      <div className="example"><Spec w="2000W" tops="65" range="120" battery="2.7"/></div>
+      <div className="responsivediv"><Spec2 w="2000W" tops="65" range="120" battery="2.7"/></div>
+      
       <ColorPicker/>
       <BuyNow/>
     </div>

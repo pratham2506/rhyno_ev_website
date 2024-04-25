@@ -17,7 +17,7 @@ import wheel from '../../assets/wheel.png'
 import charger from '../../assets/charger.png'
 
 
-const Spec2 = () => {
+const Spec2 = (props) => {
     // useEffect(() => {
     //     Aos.init({
     //         duration:600,
@@ -32,19 +32,19 @@ const Spec2 = () => {
             <div className="spec-inside">
             <img src={bolt} alt="" className='spec-icon'/>
         <p>Power</p>
-        <p className='spec-grey'>Elevate your journey with the dynamic 1500W motor power!</p>
+        <p className='spec-grey'>Elevate your journey with the dynamic {props.w} motor power!</p>
             </div>
 
             <div className="spec-inside">
             <img src={battery} alt="" className='spec-icon'/>
         <p>Battery </p>
-        <p className='spec-grey'>2.7 kWh illuminates sustainability in small packages!</p>
+        <p className='spec-grey'>{props.battery} illuminates sustainability in small packages!</p>
             </div>
 
             <div className="spec-inside">
             <img src={scooter} alt="" className='spec-icon'/>
         <p>Range</p>
-        <p className='spec-grey'>Unleash freedom with ranges stretching to an electrifying 150km!</p>
+        <p className='spec-grey'>Unleash freedom with ranges stretching to an electrifying {props.range}km!</p>
             </div>
         </div>
 
@@ -62,7 +62,7 @@ const Spec2 = () => {
             <div className="spec-inside">
             <img src={wheel} alt="" className='spec-icon'/>
         <p>Speed</p>
-        <p className='spec-grey'>Experience the thrill with Max speed soaring at 55 kmph!</p>
+        <p className='spec-grey'>Experience the thrill with Max speed soaring at {props.tops} kmph!</p>
             </div>
 
             <div className="spec-inside">

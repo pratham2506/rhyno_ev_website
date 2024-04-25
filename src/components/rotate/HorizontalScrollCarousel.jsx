@@ -49,7 +49,7 @@ const HorizontalScrollCarousel = () => {
 
   return (
     <div>
-      <h1 className="hs-h1h1">What Makes <span className='yellow'>Rhyno</span> Awesome</h1>
+      <h1 className="hs-h1h1">What Makes <span className='yellow'>RHYNO</span> Awesome</h1>
     <section ref={targetRef} className="hs-one" {...(isMobile && handlers)}>
       <div className="hs-two" >
         <motion.div style={{ x }} className="hs-three">
@@ -101,7 +101,7 @@ const cards = [
     icon: IMG1,
     title: "LFP Battery",
     subtitle: "Subtitle 1",
-    description: "Equipped with advanced Lithium Iron Phosphate (LFP) batteries, renowned for their safety features—eliminating the risk of fire. These batteries boast a broader temperature range, ideal for the diverse Indian climate. Our technology enhances Rhyno's longevity, complemented by an Active Balancing Smart Battery Management System (BMS) for extended life and reduced maintenance.",
+    description: "Equipped with advanced Lithium Iron Phosphate (LFP) batteries, renowned for their safety features—eliminating the risk of fire. These batteries boast a broader temperature range, ideal for the diverse Indian climate. Our technology enhances RHYNO's longevity, complemented by an Active Balancing Smart Battery Management System (BMS) for extended life and reduced maintenance.",
     id: 1,
   },
   {
@@ -109,7 +109,7 @@ const cards = [
     icon: IMG5,
     title: "Wider tyres",
     subtitle: "Subtitle 1",
-    description: "Now, say goodbye to skidding and embrace the leaning turns! Featuring first-of-its-kind, 9.5-inch wider tyres that make this machine an enormous beast that ensures stability on different terrains such as wet roads, mud, and sand.",
+    description: "Now, say goodbye to skidding and embrace the leaning turns! Featuring first-of-its-kind, 9.5-inch wider tyres that make this machine an enormous beast that ensures stability on different terrains such as wet roads, mud, and sand roads.",
     id: 1,
   },
   {
@@ -117,7 +117,7 @@ const cards = [
     icon: IMG3,
     title: "Range prediction",
     subtitle: "Subtitle 1",
-    description: "Many budget-friendly electric scooters overlook this crucial feature, causing riders to experience range anxiety. With Rhyno, you can ride with peace of mind, thanks to the scooter providing precise information about the remaining battery.",
+    description: "Many budget-friendly electric scooters overlook this crucial feature, causing riders to experience range anxiety. With RHYNO, you can ride with peace of mind, which provides precise information about the remaining battery.",
     id: 1,
   },
   {
@@ -125,7 +125,7 @@ const cards = [
     icon: IMG2,
     title: "Extraordinary Experience",
     subtitle: "Subtitle 1",
-    description: "Rhyno is more than just a mode of transportation. It is an experience of sheer comfort and style! A seamless fusion of minimalism, sophistication, and a touch of masculinity! This experience is enhanced further with lower CG, which makes your Rhyno ultra-lightweight as if you are riding on a feather!!",
+    description: "RHYNO is more than just a mode of transportation. It's an experience of sheer comfort and style! A seamless fusion of minimalism, sophistication and a touch of masculinity! This experience is enhanced further with lower CG, which makes your RHYNO ultra-lightweight as if you are riding on a feather!",
     id: 1,
   },
   {
@@ -133,7 +133,7 @@ const cards = [
     icon: IMG4,
     title: "Rugged and simple Design",
     subtitle: "Subtitle 1",
-    description: "We’ve had enough of the EVs looking and feeling like fragile plastic toys. Often fading out and shamelessly breaking in minor accidents, spending weeks and months at service stations for complex repairs. We took the bold step of making something raw, rugged, and practical. We kept it so simple that even your trusted local mechanic can understand and repair most of it. If you have reached this far, why not to take a test ride? Click here to locate your nearest dealership or book a test ride at your home!",
+    description: "We’ve had enough of the EVs looking and feeling like fragile plastic toys. Often fading out and shamelessly breaking in minor accidents, spending weeks and months at service stations for complex repairs. We took the bold step of making something raw, rugged, and practical. We kept it so simple that even your trusted local mechanic can understand and repair most of it. If you have reached this far, why not take a test ride? Click here to locate your nearest dealership or book a test ride at your home!",
     id: 1,
   },
 ];

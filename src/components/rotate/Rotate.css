@@ -11,6 +11,7 @@
     height: 100vh;
     align-items: center;
     overflow: hidden;
+    background-color: var(--black);
 }
 
 .hs-three{
@@ -60,4 +61,7 @@
     text-align: center;
     font-size: var(--heading);
     padding: 1.2rem;
+    background-color: var(--black);
+    margin: 0;
+    color: var(--white);
 }
