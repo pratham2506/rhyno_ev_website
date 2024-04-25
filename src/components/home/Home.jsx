@@ -24,9 +24,9 @@ const Home = () => {
     <div>
       <div className="Drone_head">
         <div className="content">
-          <h1 className='aligncenter'>Let's Elevate Your Ride Experience <br /> With <span className='yellow'>Rhyno</span> </h1>
+          <h1 className='aligncenter'>Let's Elevate Your <br />Ride Experience <br/>With <span className='yellow'>Rhyno</span> </h1>
           <h1 className='animation alignleft'>
-            Where Superiority Meets <span className='rotate'>{toRotate[textIndex]}</span>
+            Where Superiority <br/> Meets <span className='rotate'>{toRotate[textIndex]}</span>
           </h1>
         </div>
       </div>

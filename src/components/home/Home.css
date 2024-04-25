@@ -1,13 +1,13 @@
 .Drone_head {
     background: url('../../assets/11.png') no-repeat;
-    background-position: right;
-    background-size: 1350px 1000px;
+    background-position: bottom right;
+    background-size: 1350px 900px;
     background-color: var(--black);
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    padding: 5rem;
+    padding: 5rem 5rem 10rem 10rem ;
     height: 100vh;
     perspective: 1000px; /* Add perspective for 3D effect */
 }
@@ -17,7 +17,7 @@
 }
 
 .Drone_head .content h1 {
-    font-size: var(--heading);
+    font-size: var(--mega);
     color: #fff;
     text-transform: uppercase;
     position: relative; 
@@ -26,7 +26,7 @@
 .Drone_head .content h1 .rotate {
     position: absolute;
     color: var(--yellow);
-    top: 0;
+    top: 10;
     margin-left: 20px;
     left: 110;
     transition: transform 0.5s;
