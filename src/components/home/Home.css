@@ -47,6 +47,11 @@
 @media (max-width:500px) {
     .Drone_head{
         padding: 1.2rem 1.2rem 8rem 1.2rem;
+        background-position: center;
+        background-size: cover;
+    }
+    .Drone_head .content h1{
+        font-size: var(--heading);
     }
     .Drone_head .content h1 .rotate{
         top: 75px;
