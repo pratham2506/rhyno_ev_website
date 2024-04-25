@@ -23,11 +23,12 @@ const Vehicle_Img2 = (props) => {
 
   return (
     <div>
-      <div className="vi-maindiv vi-bg">
+      <div className="vi-maindiv vi-bg ">
         
         <div className="vi-imgdiv">
           <img src={IMG1} alt="" className='vi-flip'/>
         </div>
+        
         <div className="vi-textdiv" data-aos="flip-right" data-aos-delay="400">
           <h1>SE03 MAX</h1>
           <div className="vi-info">

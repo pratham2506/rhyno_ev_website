@@ -48,8 +48,8 @@
 }
 
 .vi-imgdiv img {
-  width: 600px;
-  height: 600px;
+  max-width: 620px;
+  max-height: 620px;
 }
 
 .vi-btns {
@@ -68,11 +68,13 @@
 
 .vi-flip{
   transform: scaleX(-1);
+  margin-right: 7rem;
 }
 
 .vi-bg{
   background-color: var(--light-grey);
   color: var(--black);
+  padding: 5rem 0 0 12rem;
 }
 
 @media (max-width: 1325px) {

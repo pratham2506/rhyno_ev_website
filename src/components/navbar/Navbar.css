@@ -182,6 +182,7 @@
 @media (max-width:480px){
   #nav-toggler{
     right: 40px;
+    top: 30px;
   }
   .background-image{
     background-image: url('https://img.freepik.com/premium-photo/vertical-black-paper-texture-with-noise-speckles_469558-42443.jpg');
